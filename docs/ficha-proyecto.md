@@ -333,16 +333,18 @@ Se aprovecha lo trabajado con Firebase en la Unidad 1.
 | Herramientas de administración difíciles para la Municipalidad | Diseñar el checklist y el calendario pensando en operadores no técnicos. |
 | Dependencia de la disponibilidad de la contraparte | Coordinar las visitas de levantamiento y validación con Vinculación con el Medio. |
 
-## 11. Hitos tentativos del semestre
+## 11. Hitos del semestre
 
-| Hito | Contenido |
-|------|-----------|
-| H1 — Definición | Ficha de proyecto y requisitos base (docentes). Levantamiento con la contraparte, requisitos completos y nombre comercial (cada grupo). |
-| H2 — Diseño | Modelo de datos, arquitectura, prototipos de pantallas validados con la asociación. |
-| H3 — Base | Perfiles y acceso (administrador, emprendedora con huella, comprador con Google), registro de emprendedoras y asociaciones, ficha de tienda, catálogo con variantes y configuración de disponibilidad. |
-| H4 — Difusión | Web pública y modo comprador, links, QR, compartir. |
-| H5 — Ferias y valor agregado | Ferias con checklist e invitaciones, ficha de feria, seguidores y notificaciones, registro e historial de ventas, configuraciones de tienda, calificaciones, contacto. IA solo si hay fondos. |
-| H6 — Cierre | Pruebas, ajustes de usabilidad, selección del grupo ganador y presentación a las emprendedoras. |
+Las fechas y el contenido de cada entrega semanal están en la [planificación](planificacion.md).
+
+| Hito | Contenido | Entregas |
+|------|-----------|----------|
+| H1 — Definición | Ficha de proyecto y requisitos base (docentes). Diseño conceptual, nombre comercial y propuesta (prototipo) para revisar con las emprendedoras (cada grupo). Visita a Alerce el miércoles 14 de octubre. | 1 y 2 (5 y 14 oct) |
+| H2 — Diseño | Informe de levantamiento, requisitos completos, modelo de datos, arquitectura y prototipo corregido con la retroalimentación de la asociación. | 3 (19 oct) |
+| H3 — Base | Perfiles y acceso (administrador, emprendedora con huella, comprador con Google), registro de emprendedoras y asociaciones, ficha de tienda, catálogo con variantes y configuración de disponibilidad. | 4 y 5 (26 oct y 2 nov) |
+| H4 — Difusión | Web pública y modo comprador, links, QR, compartir. | 6 (9 nov) |
+| H5 — Ferias y valor agregado | Ferias con checklist e invitaciones, ficha de feria, seguidores y notificaciones, registro e historial de ventas, configuraciones de tienda, calificaciones, contacto. IA solo si hay fondos. | 7 (16 nov) |
+| H6 — Cierre | Pruebas, ajustes de usabilidad y entrega final. Luego, selección del grupo ganador y presentación a las emprendedoras. | 8 (23 nov) |
 
 ## 12. Decisiones tomadas en la definición
 
@@ -367,6 +369,6 @@ Se aprovecha lo trabajado con Firebase en la Unidad 1.
 
 ## 13. Próximos pasos
 
-1. Coordinar con Vinculación con el Medio la visita de levantamiento a la asociación de Alerce.
-2. Cada grupo aplica la [pauta de levantamiento](pauta-levantamiento.md) y entrega su informe.
-3. Cada grupo completa los [requisitos base](requerimientos-base.md) con los hallazgos del levantamiento y propone el nombre comercial.
+1. Cada grupo prepara su diseño conceptual (entrega del 5 de octubre) y su propuesta para la visita según la [planificación](planificacion.md).
+2. Visita a la asociación de Alerce el miércoles 14 de octubre: cada grupo llega con su propuesta (entrega 2), aplica la [pauta de levantamiento](pauta-levantamiento.md) y revisa la propuesta con las emprendedoras.
+3. Cada grupo entrega su informe y completa los [requisitos base](requerimientos-base.md) con los hallazgos del levantamiento (entrega del 19 de octubre).

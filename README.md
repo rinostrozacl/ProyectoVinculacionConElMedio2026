@@ -12,7 +12,7 @@ Contraparte: asociación de emprendedoras vinculada al proyecto de Vinculación 
 
 ## Estado
 
-Ficha de proyecto cerrada (v1.0) y requisitos base publicados. Siguiente etapa: levantamiento con la contraparte a cargo de cada grupo.
+Ficha de proyecto cerrada (v1.0), requisitos base y planificación publicados: 8 entregas semanales, del 5 de octubre a la entrega final del 23 de noviembre de 2026. Siguiente etapa: diseño conceptual (5 oct) y propuesta de cada grupo, que se entrega y se revisa con las emprendedoras en la visita a Alerce del miércoles 14 de octubre.
 
 ## Documentación
 
@@ -21,16 +21,18 @@ Ficha de proyecto cerrada (v1.0) y requisitos base publicados. Siguiente etapa: 
 | [docs/ficha-proyecto.md](docs/ficha-proyecto.md) | Ficha de proyecto: problema, objetivos, actores, alcance, organización, riesgos y decisiones tomadas |
 | [docs/requerimientos-base.md](docs/requerimientos-base.md) | Requisitos base (reglas de negocio, funcionales y no funcionales) y lo que completa cada grupo |
 | [docs/pauta-levantamiento.md](docs/pauta-levantamiento.md) | Pauta para el levantamiento con la asociación de Alerce |
+| [docs/planificacion.md](docs/planificacion.md) | Planificación: calendario de las 8 entregas, con objetivo, entregables y criterios de aceptación de cada una |
 | [requerimientos.md](requerimientos.md) | Índice de requisitos y entregables |
 
 ## Estructura
 
 ```
-EmprendedoresPuertoMontt/
+ProyectoVinculacionConElMedio2026/
 ├── README.md
 ├── requerimientos.md
 └── docs/
     ├── ficha-proyecto.md
     ├── requerimientos-base.md
-    └── pauta-levantamiento.md
+    ├── pauta-levantamiento.md
+    └── planificacion.md
 ```

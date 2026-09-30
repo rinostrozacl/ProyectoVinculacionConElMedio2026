@@ -1,0 +1,36 @@
+# Android / Gradle
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+**/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.log
+
+# Keystores
+*.jks
+*.keystore
+google-services.json
+
+# Kotlin / Java
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Secrets
+.env
+*.pem
+
+# OS
+Thumbs.db
+
+# Contexto local para IA (no versionar)
+.agents/

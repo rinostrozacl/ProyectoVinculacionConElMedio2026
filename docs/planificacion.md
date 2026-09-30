@@ -50,7 +50,10 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 1. **Identidad:** nombre comercial propuesto con su justificación, logo o bosquejo, paleta de colores y tipografía.
 2. **Propuesta de valor** para cada perfil: emprendedora, comprador y administrador.
 3. **Fichas de usuario tipo** (*personas*), una por perfil, marcando los supuestos que se deben confirmar en la visita.
-4. **Historias de usuario** de los requisitos Esenciales, en formato "Como… quiero… para…", agrupadas por módulo y con el ID del requisito que cubren.
+4. **Historias de usuario de los flujos principales**, en formato "Como… quiero… para…" y con el ID del requisito que cubren:
+   - Emprendedora: entrar a la app con huella, crear un producto, registrar una venta, responder una invitación a feria y compartir su tienda.
+   - Comprador: encontrar una tienda, ver sus productos y contactar a la emprendedora.
+   - Administrador: registrar una emprendedora, y crear una feria e invitar participantes.
 5. **Mapa de navegación** de la app (modo emprendedora y modo comprador) y de la web (vitrina, administración de la tienda y administración de la plataforma).
 6. **Modelo conceptual del dominio:** diagrama de entidades y relaciones, con cardinalidades.
 7. **Hipótesis de tipos de producto:** tabla con los tipos de la ficha (sección 5.11) y, para cada uno, los campos, variantes, modalidad y manejo de stock que el grupo supone.
@@ -58,8 +61,8 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 
 **Criterios de aceptación:**
 
-1. Cada requisito Esencial de los requisitos base está cubierto por al menos una historia de usuario que lo cita por su ID (por ejemplo, "RF-PRO-01").
-2. Cada pantalla del mapa de navegación corresponde a al menos una historia de usuario, y cada entidad del modelo conceptual aparece en alguna historia.
+1. Cada flujo principal tiene al menos una historia de usuario, y cada historia cita el ID del requisito que cubre (por ejemplo, "RF-PRO-01").
+2. Cada flujo principal se puede recorrer de principio a fin en el mapa de navegación, y las entidades que usa están en el modelo conceptual.
 3. Cada supuesto de la lista tiene asociada una pregunta o tarea concreta para la visita.
 
 ---
@@ -104,7 +107,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 
 1. **Informe de levantamiento** según la sección 10 de la pauta, con sus anexos (fichas de producto, hojas de observación y hojas de revisión del prototipo).
 2. **Tipos de emprendimiento y de producto reales:** tabla con campos específicos, variantes, modalidad y manejo de stock de cada tipo, comparada con las hipótesis de la entrega 1.
-3. **Documento de requisitos completo:** requisitos base más requisitos nuevos (con la plantilla de los requisitos base, trazados a hallazgos H01…), criterios de aceptación para todos los Esenciales e Importantes, y decisiones fundamentadas sobre la versión mínima de Android y la inclusión de servicios.
+3. **Documento de requisitos completo:** requisitos base más requisitos nuevos (con la plantilla de los requisitos base, trazados a hallazgos H01…), historias de usuario de todos los requisitos Esenciales (completando las de los flujos principales de la entrega 1), criterios de aceptación para todos los Esenciales e Importantes, y decisiones fundamentadas sobre la versión mínima de Android y la inclusión de servicios.
 4. **Prototipo de alta fidelidad** corregido con lo observado en la visita (flujos de la emprendedora y pantallas principales del comprador y del administrador), con un registro de los cambios realizados.
 5. **Guía visual:** colores, tipografía, componentes, íconos con texto y tamaños mínimos de 48 dp (RNF-USA-01, RNF-USA-02).
 6. **Modelo de datos en Firestore:** colecciones, documentos, campos y relaciones, incluidos los campos específicos por tipo de producto.
@@ -113,7 +116,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 **Criterios de aceptación:**
 
 1. El informe incluye todas las tablas de consolidación de la pauta (sección 9) completas, con las emprendedoras identificadas solo por código (E01, E02…).
-2. Cada requisito nuevo cita el hallazgo que lo origina, y todos los requisitos Esenciales e Importantes tienen criterios de aceptación en formato "Dado… cuando… entonces…".
+2. Cada requisito nuevo cita el hallazgo que lo origina; cada requisito Esencial está cubierto por al menos una historia de usuario; y todos los Esenciales e Importantes tienen criterios de aceptación en formato "Dado… cuando… entonces…".
 3. Cada cambio anotado en la tabla de retroalimentación (sección 9.6 de la pauta) se ve reflejado en el prototipo, y cada tipo de producto levantado tiene sus campos en el modelo de datos.
 
 ---

@@ -36,8 +36,8 @@ Base: [ficha de proyecto v1.1](ficha-proyecto.md) y [requisitos base](requerimie
 |-----|-----------------|
 | Entrevistador/a | Conduce la conversación con la pauta; cuida el trato y los tiempos. |
 | Registrador/a | Toma notas textuales de lo que dice la emprendedora (no interpretar en el momento). |
-| Observador/a de productos | Completa una ficha de registro por producto (sección 7) y toma fotos si hay autorización. |
-| Observador/a de uso | Conduce las tareas con el celular (sección 8) y la revisión del prototipo (sección 6), y anota qué pasa. |
+| Observador/a de productos | Completa una ficha de registro por producto (sección 6) y toma fotos si hay autorización. |
+| Observador/a de uso | Conduce las tareas con el celular (sección 7) y la revisión del prototipo (sección 5), y anota qué pasa. |
 
 Cada grupo designa a **dos encargados** del trabajo con la emprendedora, que se reparten los cuatro roles así:
 
@@ -51,7 +51,7 @@ El entrevistador no debe ser también el registrador. Todo el grupo asiste a la 
 ### 2.3 Materiales
 
 - Esta pauta impresa o en el celular.
-- Copias de la ficha de registro de producto (sección 7), de la hoja de observación de uso (sección 8) y cuatro hojas de revisión del prototipo (sección 6), una por emprendedora.
+- Copias de la ficha de registro de producto (sección 6), de la hoja de observación de uso (sección 7) y cuatro hojas de revisión del prototipo (sección 5), una por emprendedora.
 - Prototipo del grupo cargado en un celular del grupo, probado sin conexión o con datos propios (no depender del wifi del lugar).
 - Celular con batería para fotos y, si hay autorización, grabación de audio.
 - Un QR impreso de prueba (a cualquier página conocida) para la tarea de escaneo.
@@ -120,31 +120,18 @@ Las preguntas son una guía; no hay que leerlas textualmente ni hacerlas todas. 
 
 Agradecer y explicar los próximos pasos (sin prometer fechas ni funciones).
 
-## 5. Guion B — Entrevista a la dirigencia de la asociación
-
-Aplicar a la presidenta u otra dirigenta, si está disponible.
-
-1. ¿Cuántas integrantes tiene la asociación? ¿Qué tipos de emprendimiento hay?
-2. ¿Cómo se organizan? ¿Cómo se comunican entre ellas?
-3. ¿La asociación participa en ferias como grupo? ¿Quién organiza esas ferias (la asociación, la Municipalidad, otros)?
-4. ¿Cómo se invita y confirma a las integrantes para una feria? ¿Cómo saben quién fue?
-5. ¿Qué información de la asociación les gustaría mostrar al público?
-6. ¿Hay integrantes que participan en otras asociaciones?
-7. ¿Qué problemas ven en la forma en que venden hoy sus integrantes?
-8. ¿Qué esperan de una plataforma como esta?
-
-## 6. Guion C — Revisión de la propuesta del grupo
+## 5. Guion B — Revisión de la propuesta del grupo
 
 Se aplica **después** de la entrevista (Guion A), para no condicionar las respuestas. En la visita, cada grupo lo aplica con las cuatro emprendedoras en turnos de **5 minutos** (ver la rotación en la [pauta de la actividad](pauta-actividad-visita.md)). En ese tiempo, priorizar tres tareas (subir un producto nuevo, anotar que vendió un producto y compartir su tienda por WhatsApp) y las preguntas 1 y 5; el resto, solo si queda tiempo.
 
-### 6.1 Cómo presentarla
+### 5.1 Cómo presentarla
 
 - Explicar que es un **dibujo de cómo podría funcionar**, no una aplicación terminada, y que su opinión sirve para mejorarlo. Recordar que varios grupos trabajan en propuestas.
 - Pasarle el celular del grupo para que ella lo use. Leer cada tarea en voz alta, en lenguaje simple.
 - **No guiarla ni corregirla** mientras intenta la tarea. Si se queda detenida más de un minuto o pide ayuda, anotarlo y ayudar.
 - Pedirle que diga en voz alta lo que piensa ("¿qué cree que pasa si toca aquí?").
 
-### 6.2 Tareas sobre el prototipo
+### 5.2 Tareas sobre el prototipo
 
 | Tarea | Resultado | Observaciones (dónde dudó, qué tocó, qué dijo) |
 |-------|-----------|--------------------------------------------------|
@@ -155,7 +142,7 @@ Se aplica **después** de la entrevista (Guion A), para no condicionar las respu
 | Responder que sí participa en una feria | Lo hizo sola / Con ayuda / No pudo | |
 | Compartir su tienda por WhatsApp | Lo hizo sola / Con ayuda / No pudo | |
 
-### 6.3 Preguntas después de las tareas
+### 5.3 Preguntas después de las tareas
 
 1. ¿Qué le pareció? ¿Qué fue lo más fácil y lo más difícil?
 2. ¿Hubo palabras o botones que no entendió?
@@ -164,7 +151,7 @@ Se aplica **después** de la entrevista (Guion A), para no condicionar las respu
 5. ¿Usaría algo así? ¿Qué tendría que tener para que lo use?
 6. ¿Hay algo que haga hoy en su negocio que no vio en la propuesta?
 
-## 7. Ficha de registro de producto
+## 6. Ficha de registro de producto
 
 Completar **una ficha por cada producto distinto** observado o descrito. Idealmente, al menos dos o tres productos por emprendedora.
 
@@ -186,7 +173,7 @@ Completar **una ficha por cada producto distinto** observado o descrito. Idealme
 | Foto tomada | Sí (n.º de archivo) / No |
 | Observaciones | |
 
-## 8. Observación de uso del celular
+## 7. Observación de uso del celular
 
 **Recomendada, sin tiempo asignado en la visita.** Aprovechar los momentos en que la emprendedora use su celular durante la entrevista (por ejemplo, al mostrar fotos de sus productos o conversaciones de WhatsApp) y, **solo si acepta y hay tiempo**, pedirle alguna de estas tareas en **su propio celular**. No ayudarla salvo que lo pida; anotar lo que ocurre sin juzgar.
 
@@ -201,17 +188,17 @@ Completar **una ficha por cada producto distinto** observado o descrito. Idealme
 
 Anotar además: tamaño de letra configurado, si usa dictado por voz, si el celular tiene poco espacio o batería, y cualquier dificultad visual o motriz evidente.
 
-## 9. Consolidación de resultados
+## 8. Consolidación de resultados
 
 Después de la visita, cada grupo consolida lo levantado en las siguientes tablas.
 
-### 9.1 Tipos de emprendimiento y de producto
+### 8.1 Tipos de emprendimiento y de producto
 
 | Tipo de emprendimiento | Tipo de producto | Campos específicos | Variantes habituales | Modalidad habitual | ¿Manejar stock? | Emprendedoras (códigos) |
 |------------------------|------------------|--------------------|----------------------|--------------------|-----------------|--------------------------|
 | Ej.: Alimentos | Ej.: Mermeladas | Ingredientes, peso, fecha de elaboración | Sabor, tamaño | Regular | Sí | E01, E04 |
 
-### 9.2 Preferencias sobre funciones configurables
+### 8.2 Preferencias sobre funciones configurables
 
 | Función | Preferencias observadas (cuántas a favor / en contra y por qué) |
 |---------|------------------------------------------------------------------|
@@ -221,7 +208,7 @@ Después de la visita, cada grupo consolida lo levantado en las siguientes tabla
 | Horario de contacto | |
 | Historial de ventas | |
 
-### 9.3 Perfil tecnológico
+### 8.3 Perfil tecnológico
 
 | Aspecto | Resultado |
 |---------|-----------|
@@ -232,15 +219,15 @@ Después de la visita, cada grupo consolida lo levantado en las siguientes tabla
 | ¿Tienen cuenta de Google? | |
 | ¿Usan huella? | |
 
-### 9.4 Ferias
+### 8.4 Ferias
 
 Cómo se organizan hoy, quién las convoca, cómo se confirma la participación y cómo se avisa a los clientes.
 
-### 9.5 Servicios
+### 8.5 Servicios
 
 Qué servicios ofrecen, cuántas emprendedoras, y recomendación fundamentada: ¿incluirlos o no en la primera versión?
 
-### 9.6 Retroalimentación sobre la propuesta
+### 8.6 Retroalimentación sobre la propuesta
 
 | Aspecto | Resultado |
 |---------|-----------|
@@ -250,7 +237,7 @@ Qué servicios ofrecen, cuántas emprendedoras, y recomendación fundamentada: �
 | Comentarios sobre la vista del cliente (tienda y producto) | |
 | Cambios que el grupo hará al prototipo | |
 
-### 9.7 Hallazgos y requisitos nuevos
+### 8.7 Hallazgos y requisitos nuevos
 
 Cada hallazgo relevante se numera (H01, H02…) y, cuando corresponda, se transforma en un requisito nuevo que lo cita como origen (ver la plantilla en [requerimientos-base.md](requerimientos-base.md#6-plantilla-para-requisitos-nuevos)).
 
@@ -258,13 +245,13 @@ Cada hallazgo relevante se numera (H01, H02…) y, cuando corresponda, se transf
 |----------|-------------|----------------------------------------|--------------------|
 | H01 | | | RF-___ |
 
-## 10. Entregable del levantamiento
+## 9. Entregable del levantamiento
 
 Cada grupo entrega un **informe de levantamiento** con:
 
 1. Fecha, lugar, integrantes del grupo y roles.
 2. Número de emprendedoras entrevistadas (con códigos, sin nombres completos).
-3. Las tablas consolidadas de la sección 9.
+3. Las tablas consolidadas de la sección 8.
 4. Fichas de registro de producto, hojas de observación de uso y hojas de revisión del prototipo (anexos).
 5. Fotos de productos autorizadas (anexo).
 6. Lista de hallazgos y requisitos nuevos derivados.

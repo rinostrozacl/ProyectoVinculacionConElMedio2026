@@ -28,8 +28,8 @@
 
 | Momento | Duración | Qué se hace |
 |---------|----------|-------------|
-| Entrevista | 20 min | Cada grupo, con la emprendedora de su mesa: entrevista (Guion A, sección 4) y fichas de registro de productos (sección 7). Priorizar los bloques 2 (productos) y 3 (cómo vende). |
-| Rotación con el prototipo | 4 turnos de 5 min | En cada turno, el grupo muestra su prototipo a una emprendedora (Guion C, sección 6): primero a la de su mesa y luego a las otras tres. |
+| Entrevista | 20 min | Cada grupo, con la emprendedora de su mesa: entrevista (Guion A, sección 4) y fichas de registro de productos (sección 6). Priorizar los bloques 2 (productos) y 3 (cómo vende). |
+| Rotación con el prototipo | 4 turnos de 5 min | En cada turno, el grupo muestra su prototipo a una emprendedora (Guion B, sección 5): primero a la de su mesa y luego a las otras tres. |
 
 Orden de la rotación:
 
@@ -41,8 +41,6 @@ Orden de la rotación:
 | 4 | Mesa D | D | A | B | C |
 
 Así, cada grupo levanta en profundidad la información de una emprendedora y recibe la opinión de las cuatro sobre su propuesta, y cada emprendedora conoce las cuatro propuestas. La revisión del prototipo va siempre después de la entrevista, para no condicionar las respuestas.
-
-Si la dirigencia de la asociación está disponible, el docente puede conversar con ella (Guion B) durante el trabajo de los grupos.
 
 ## Recomendaciones para los estudiantes
 
@@ -70,7 +68,7 @@ Si la dirigencia de la asociación está disponible, el docente puede conversar 
 
 **Si se da la oportunidad (sin tiempo asignado)**
 
-- Observar cómo la emprendedora usa su propio celular, por ejemplo al mostrar fotos de sus productos o sus conversaciones de WhatsApp, y anotarlo en la hoja de observación de uso (sección 8 de la pauta). No pedirlo como una tarea aparte si quita tiempo a la entrevista.
+- Observar cómo la emprendedora usa su propio celular, por ejemplo al mostrar fotos de sus productos o sus conversaciones de WhatsApp, y anotarlo en la hoja de observación de uso (sección 7 de la pauta). No pedirlo como una tarea aparte si quita tiempo a la entrevista.
 
 ## Antes de la actividad
 

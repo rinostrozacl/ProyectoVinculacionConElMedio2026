@@ -106,7 +106,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
    5. Compartir la tienda por WhatsApp o QR.
 
    Incluye además una o dos pantallas de lo que vería un comprador (tienda y producto), con ejemplos de productos plausibles de la zona y sin datos personales reales.
-2. **Guion de revisión del prototipo:** el Guion C de la pauta adaptado a las pantallas del grupo, con las tareas y preguntas que se harán a cada emprendedora en turnos de 5 minutos.
+2. **Guion de revisión del prototipo:** el Guion B de la pauta adaptado a las pantallas del grupo, con las tareas y preguntas que se harán a cada emprendedora en turnos de 5 minutos.
 3. **Material de la visita:** los dos encargados del trabajo con las emprendedoras y sus roles ([pauta de la actividad](pauta-actividad-visita.md)), preguntas propias agregadas a la pauta y material impreso (fichas de registro de producto, hojas de observación de uso, cuatro hojas de revisión del prototipo y QR de prueba).
 4. **Decisiones técnicas:** framework web elegido con su justificación y diagrama preliminar de la arquitectura en capas.
 5. **Proyecto base:** app Android (Kotlin y Jetpack Compose) y web en el repositorio del grupo, conectadas a Firebase, con README de ejecución y `.gitignore` que excluya credenciales. Desde aquí el grupo trabaja con ramas por funcionalidad y *pull requests* (RNF-MAN-03).
@@ -128,7 +128,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 
 **Entregables:**
 
-1. **Informe de levantamiento** según la sección 10 de la pauta, con sus anexos (fichas de producto, hojas de observación y hojas de revisión del prototipo).
+1. **Informe de levantamiento** según la sección 9 de la pauta, con sus anexos (fichas de producto, hojas de observación y hojas de revisión del prototipo).
 2. **Tipos de emprendimiento y de producto reales:** tabla con campos específicos, variantes, modalidad y manejo de stock de cada tipo, comparada con las hipótesis de la entrega 1.
 3. **Documento de requisitos completo:** requisitos base más requisitos nuevos (con la plantilla de los requisitos base, trazados a hallazgos H01…), historias de usuario de todos los requisitos Esenciales (completando las de los flujos principales de la entrega 1), criterios de aceptación para todos los Esenciales e Importantes, y decisiones fundamentadas sobre la versión mínima de Android y la inclusión de servicios.
 4. **Prototipo de alta fidelidad** corregido con lo observado en la visita (flujos de la emprendedora y pantallas principales del comprador y del administrador), con un registro de los cambios realizados.
@@ -139,9 +139,9 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 
 **Criterios de aceptación:**
 
-1. El informe incluye todas las tablas de consolidación de la pauta (sección 9) completas, con las emprendedoras identificadas solo por código (E01, E02…).
+1. El informe incluye todas las tablas de consolidación de la pauta (sección 8) completas, con las emprendedoras identificadas solo por código (E01, E02…).
 2. Cada requisito nuevo cita el hallazgo que lo origina; cada requisito Esencial está cubierto por al menos una historia de usuario; y todos los Esenciales e Importantes tienen criterios de aceptación en formato "Dado… cuando… entonces…".
-3. Cada cambio anotado en la tabla de retroalimentación (sección 9.6 de la pauta) se ve reflejado en el prototipo, y cada tipo de producto levantado tiene sus campos en el modelo de datos.
+3. Cada cambio anotado en la tabla de retroalimentación (sección 8.6 de la pauta) se ve reflejado en el prototipo, y cada tipo de producto levantado tiene sus campos en el modelo de datos.
 4. La rama principal está protegida, todo cambio desde la entrega 2 entró por un *pull request* revisado por otro integrante, y cada integrante tiene commits propios en el historial.
 
 ---

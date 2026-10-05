@@ -51,20 +51,19 @@ El entrevistador no debe ser también el registrador. Todo el grupo asiste a la 
 ### 2.3 Materiales
 
 - Esta pauta impresa o en el celular.
-- Copias de la ficha de registro de producto (sección 7), de la hoja de observación de uso (sección 8) y de la hoja de revisión del prototipo (sección 6).
-- Hoja de consentimiento (sección 3).
+- Copias de la ficha de registro de producto (sección 7), de la hoja de observación de uso (sección 8) y cuatro hojas de revisión del prototipo (sección 6), una por emprendedora.
 - Prototipo del grupo cargado en un celular del grupo, probado sin conexión o con datos propios (no depender del wifi del lugar).
 - Celular con batería para fotos y, si hay autorización, grabación de audio.
 - Un QR impreso de prueba (a cualquier página conocida) para la tarea de escaneo.
 
 ## 3. Consideraciones éticas y de trato
 
-- **Consentimiento:** al inicio, explicar quiénes son, para qué es la conversación y pedir autorización para tomar notas, fotos de productos y, si corresponde, grabar audio. Registrar el consentimiento por escrito.
+- **Presentación:** al inicio, explicar quiénes son y para qué es la conversación. No se pide hoja de consentimiento, porque las emprendedoras ya participan en actividades de la asociación con Vinculación con el Medio; sí se pide permiso de palabra antes de tomar fotos de productos o grabar audio.
 - **Datos personales:** no registrar RUT, dirección de domicilio ni datos que no se necesiten. En los documentos del grupo, identificar a cada emprendedora con un código (E01, E02…), no con su nombre completo.
 - **Fotos:** solo de productos, y solo con autorización. No fotografiar personas sin su consentimiento explícito.
 - **Expectativas:** no prometer funciones, fechas ni que "su" aplicación será la que usarán. Explicar que varios grupos trabajan en propuestas y que la mejor se presentará a la asociación.
 - **Lenguaje:** simple y cercano, sin tecnicismos. Tratar de "usted" salvo que la persona indique otra cosa. Evitar palabras como "stock", "variante", "app" o "link" sin explicarlas; preferir "cuántos tiene hechos", "tallas o colores", "aplicación", "enlace que se manda por WhatsApp".
-- **Tiempo:** respetar el tiempo acordado: 40 minutos por emprendedora (20 de entrevista y registro de productos, 8 de observación de uso y 10 de revisión de la propuesta), según la [pauta de la actividad](pauta-actividad-visita.md).
+- **Tiempo:** respetar el tiempo acordado: 20 minutos de entrevista y registro de productos con la emprendedora asignada, y luego cuatro turnos de 5 minutos para revisar la propuesta con cada una de las cuatro emprendedoras, según la [pauta de la actividad](pauta-actividad-visita.md).
 
 ## 4. Guion A — Entrevista a emprendedora
 
@@ -136,7 +135,7 @@ Aplicar a la presidenta u otra dirigenta, si está disponible.
 
 ## 6. Guion C — Revisión de la propuesta del grupo
 
-Se aplica **al final** de la conversación con cada emprendedora, después del Guion A y de la observación de uso, para no condicionar sus respuestas anteriores. Duración: 10 minutos.
+Se aplica **después** de la entrevista (Guion A), para no condicionar las respuestas. En la visita, cada grupo lo aplica con las cuatro emprendedoras en turnos de **5 minutos** (ver la rotación en la [pauta de la actividad](pauta-actividad-visita.md)). En ese tiempo, priorizar tres tareas (subir un producto nuevo, anotar que vendió un producto y compartir su tienda por WhatsApp) y las preguntas 1 y 5; el resto, solo si queda tiempo.
 
 ### 6.1 Cómo presentarla
 
@@ -189,7 +188,7 @@ Completar **una ficha por cada producto distinto** observado o descrito. Idealme
 
 ## 8. Observación de uso del celular
 
-Pedir a la emprendedora, **solo si acepta**, que realice estas tareas en **su propio celular**. No ayudarla salvo que lo pida; anotar lo que ocurre sin juzgar.
+**Recomendada, sin tiempo asignado en la visita.** Aprovechar los momentos en que la emprendedora use su celular durante la entrevista (por ejemplo, al mostrar fotos de sus productos o conversaciones de WhatsApp) y, **solo si acepta y hay tiempo**, pedirle alguna de estas tareas en **su propio celular**. No ayudarla salvo que lo pida; anotar lo que ocurre sin juzgar.
 
 | Tarea | Resultado | Observaciones (dudas, errores, tiempo aproximado) |
 |-------|-----------|-----------------------------------------------------|

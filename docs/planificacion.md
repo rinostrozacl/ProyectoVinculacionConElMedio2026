@@ -106,8 +106,8 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
    5. Compartir la tienda por WhatsApp o QR.
 
    Incluye además una o dos pantallas de lo que vería un comprador (tienda y producto), con ejemplos de productos plausibles de la zona y sin datos personales reales.
-2. **Guion de revisión del prototipo:** el Guion C de la pauta adaptado a las pantallas del grupo, con las tareas y preguntas que se harán a cada emprendedora.
-3. **Material de la visita:** los dos encargados del trabajo con la emprendedora y sus roles ([pauta de la actividad](pauta-actividad-visita.md)), preguntas propias agregadas a la pauta y material impreso (fichas de registro de producto, hojas de observación de uso, hojas de revisión del prototipo, hoja de consentimiento y QR de prueba).
+2. **Guion de revisión del prototipo:** el Guion C de la pauta adaptado a las pantallas del grupo, con las tareas y preguntas que se harán a cada emprendedora en turnos de 5 minutos.
+3. **Material de la visita:** los dos encargados del trabajo con las emprendedoras y sus roles ([pauta de la actividad](pauta-actividad-visita.md)), preguntas propias agregadas a la pauta y material impreso (fichas de registro de producto, hojas de observación de uso, cuatro hojas de revisión del prototipo y QR de prueba).
 4. **Decisiones técnicas:** framework web elegido con su justificación y diagrama preliminar de la arquitectura en capas.
 5. **Proyecto base:** app Android (Kotlin y Jetpack Compose) y web en el repositorio del grupo, conectadas a Firebase, con README de ejecución y `.gitignore` que excluya credenciales. Desde aquí el grupo trabaja con ramas por funcionalidad y *pull requests* (RNF-MAN-03).
 6. **Primer incremento ejecutable:** pantalla inicial de la app con la separación entre modo comprador y modo emprendedora (RF-ACC-05) y web publicada en Firebase Hosting (URL en el README).

@@ -8,8 +8,8 @@
 | Territorio | Comuna de Puerto Montt |
 | Contraparte | Asociación de emprendedoras real, vinculada al proyecto de Vinculación con el Medio con centro en Alerce (Puerto Montt) |
 | Plataformas | Android (desarrollada en Android Studio) y web |
-| Versión de la ficha | 1.0 |
-| Fecha | 2026-09-28 |
+| Versión de la ficha | 1.1 |
+| Fecha | 2026-10-05 (v1.0: 2026-09-28) |
 | Estado | Cerrada — base para los requerimientos |
 
 ---
@@ -73,7 +73,9 @@ Desarrollar una plataforma móvil y web que sea el punto de encuentro del empren
 8. Gestionar ferias y eventos de forma centralizada: creación, invitación de emprendedoras, confirmación de participación, seguimiento tipo checklist y ficha pública del evento.
 9. Ofrecer funcionalidades configurables por emprendedora: precios visibles, calificaciones, forma de contacto, notificaciones con horario, historial de ventas y valores por defecto de productos.
 10. Levantar y modelar los tipos de emprendimiento y de producto reales de la contraparte.
-11. *(Condicionado a financiamiento)* Incorporar asistencia de IA que evalúe y sugiera mejoras a la ficha del producto.
+11. Ubicar las ferias en un mapa y, con permiso del usuario, mostrar las ferias cercanas a su posición (GPS).
+12. Construir la plataforma con prácticas profesionales: flujo de trabajo en Git, base de datos documentada y pruebas de seguridad con su informe.
+13. *(Condicionado a financiamiento)* Incorporar asistencia de IA que evalúe y sugiera mejoras a la ficha del producto.
 
 ## 4. Actores y perfiles de usuario
 
@@ -107,7 +109,7 @@ En ambos canales, cuando alguien que navega de forma anónima intenta **seguir**
 
 ### 5.2 Tienda de la emprendedora
 
-- Ficha de tienda: nombre, foto o logo, descripción, tipo de emprendimiento, sector de Puerto Montt, datos de contacto (WhatsApp, redes).
+- Ficha de tienda: nombre, foto o logo, descripción, tipo de emprendimiento, sector de Puerto Montt, datos de contacto (WhatsApp, redes) y, si ella lo desea, un punto de venta o retiro marcado en un mapa.
 - Pertenencia opcional a una o más asociaciones (la asigna el administrador).
 - Administrable desde la app y desde la web.
 
@@ -196,7 +198,7 @@ Cada emprendedora tiene **una tienda con un catálogo** que reúne todos sus pro
 **Ficha pública de la feria (web y modo comprador):**
 
 - Nombre, descripción, imagen, lugar, fecha y horario, organizador.
-- Link para ver la ubicación en un mapa.
+- Mapa con la ubicación de la feria y opción "Cómo llegar" (abre la aplicación de mapas del celular). El administrador marca la ubicación en un mapa al crear la feria.
 - Emprendedoras y asociaciones que asistirán, con acceso a su tienda y una muestra de su catálogo público (solo lo que el comprador puede ver según la configuración de cada producto).
 - Link y QR para compartir la feria.
 - Al confirmarse la participación de una emprendedora o asociación, se avisa a sus seguidores.
@@ -206,6 +208,7 @@ Cada emprendedora tiene **una tienda con un catálogo** que reúne todos sus pro
 - Navegación anónima según lo definido en 5.1 (web siempre; app según configuración del administrador).
 - Directorio de emprendedoras y asociaciones de Puerto Montt, con búsqueda y filtros (tipo de emprendimiento, sector, asociación).
 - Vista de tienda, detalle de producto, vista de asociación y calendario de próximas ferias con su ficha.
+- Mapa de próximas ferias; si la persona autoriza su ubicación (GPS), el mapa se centra en su posición y las ferias se ordenan por distancia.
 - Contacto con la emprendedora según la forma que ella configuró.
 - Calificaciones, en las tiendas que las tengan activas (requiere cuenta).
 - **Seguir** una tienda o una asociación (requiere cuenta):
@@ -289,6 +292,7 @@ Cada tipo puede requerir campos distintos (ej. alimentos: ingredientes, alérgen
 - Las herramientas del administrador deben ser simples de operar, porque la operación se traspasará a la Municipalidad.
 - La IA depende de conseguir financiamiento; la plataforma no puede depender de ella.
 - Los datos personales de emprendedoras y compradores deben tratarse según la normativa chilena de protección de datos, con consentimiento explícito para notificaciones y opción de dejar de seguir o darse de baja.
+- La ubicación del celular se pide solo cuando una función la necesita; si se rechaza, la app sigue funcionando, y la ubicación de la persona no se guarda en el servidor.
 
 ## 8. Propuesta tecnológica tentativa
 
@@ -305,6 +309,9 @@ Se define en la etapa de diseño; esta es la propuesta inicial.
 | Correo | Servicio de envío de correos (por definir) |
 | Web | Framework web adaptable (por definir) + Firebase Hosting |
 | QR | Generación en la app (ej. ZXing) |
+| Mapas y ubicación | Maps SDK for Android (Maps Compose) y Fused Location Provider en la app; Maps JavaScript API en la web |
+| Seguridad | Reglas de seguridad probadas con Firebase Emulator Suite, Firebase App Check, análisis con Android Lint y MobSF |
+| Versionado | Git con ramas por funcionalidad, *pull requests*, *issues* y etiquetas por entrega |
 | IA (si hay fondos) | Gemini (vía Firebase AI Logic) |
 
 Se aprovecha lo trabajado con Firebase en la Unidad 1.
@@ -342,7 +349,7 @@ Las fechas y el contenido de cada entrega semanal están en la [planificación](
 | H1 — Definición | Ficha de proyecto y requisitos base (docentes). Diseño conceptual, nombre comercial y propuesta (prototipo) para revisar con las emprendedoras (cada grupo). Visita a Alerce el miércoles 14 de octubre. | 1 y 2 (5 y 14 oct) |
 | H2 — Diseño | Informe de levantamiento, requisitos completos, modelo de datos, arquitectura y prototipo corregido con la retroalimentación de la asociación. | 3 (19 oct) |
 | H3 — Base | Perfiles y acceso (administrador, emprendedora con huella, comprador con Google), registro de emprendedoras y asociaciones, ficha de tienda, catálogo con variantes y configuración de disponibilidad. | 4 y 5 (26 oct y 2 nov) |
-| H4 — Difusión | Web pública y modo comprador, links, QR, compartir. | 6 (9 nov) |
+| H4 — Difusión | Web pública y modo comprador, links, QR, compartir, ferias en el mapa y GPS. | 6 (9 nov) |
 | H5 — Ferias y valor agregado | Ferias con checklist e invitaciones, ficha de feria, seguidores y notificaciones, registro e historial de ventas, configuraciones de tienda, calificaciones, contacto. IA solo si hay fondos. | 7 (16 nov) |
 | H6 — Cierre | Pruebas, ajustes de usabilidad y entrega final. Luego, selección del grupo ganador y presentación a las emprendedoras. | 8 (23 nov) |
 
@@ -356,7 +363,7 @@ Las fechas y el contenido de cada entrega semanal están en la [planificación](
 | Acceso del comprador | App: solo Google, con navegación anónima configurable (tres opciones). Web: cualquier medio, navegación anónima siempre permitida. |
 | Acciones con cuenta | Seguir, pedir alertas y calificar requieren cuenta. |
 | Asociaciones | Administradas solo por el administrador; una emprendedora puede estar en varias. |
-| Ferias | Centralizadas, solo por invitación, con checklist (incluye asistencia) y ficha pública con link a mapa. |
+| Ferias | Centralizadas, solo por invitación, con checklist (incluye asistencia) y ficha pública con mapa de ubicación. |
 | Producto | Modalidad, stock, comportamiento al agotarse, visibilidad y variantes configurables por producto o masivamente; valores por defecto definidos por la emprendedora. |
 | Ventas | Registradas por la emprendedora; historial opcional y privado. |
 | Avisos a seguidores | Solo participación en ferias en la primera versión. |
@@ -366,6 +373,8 @@ Las fechas y el contenido de cada entrega semanal están en la [planificación](
 | Organización | Cada grupo construye la plataforma completa; el ganador la presenta a las emprendedoras. |
 | Requisitos | Los docentes proponen los requisitos base; cada grupo levanta y agrega el resto. |
 | Nombre comercial | Lo propone cada grupo. |
+| Mapas y GPS (v1.1) | Ubicación de ferias en el mapa, mapa de ferias cercanas con permiso de ubicación y punto de venta opcional de la emprendedora. |
+| Evaluaciones (v1.1) | Los contenidos evaluados en la asignatura (Git, base de datos, seguridad, GPS y mapas, presentación final) se incluyen como requisitos del proyecto; ver la [planificación](planificacion.md). |
 
 ## 13. Próximos pasos
 

@@ -1,6 +1,8 @@
 # Requisitos base — Emprendedores Puerto Montt
 
-Requisitos **mínimos** propuestos por el equipo docente a partir de la [ficha de proyecto v1.0](ficha-proyecto.md). Son el punto de partida común para todos los grupos.
+Requisitos **mínimos** propuestos por el equipo docente a partir de la [ficha de proyecto v1.1](ficha-proyecto.md). Son el punto de partida común para todos los grupos.
+
+Incluyen los contenidos de las evaluaciones de la asignatura: Git (RNF-MAN-03 a 05), base de datos (RNF-DAT), seguridad (RNF-SEG-04 a 08) y GPS y mapas (RF-MAP, RNF-PRI-04). La entrega en que se evalúa cada uno está en la [planificación](planificacion.md#2-evaluaciones-de-la-asignatura).
 
 **Cada grupo debe completarlos** con lo que obtenga del levantamiento con la contraparte ([pauta de levantamiento](pauta-levantamiento.md)): requisitos nuevos, campos específicos por tipo de producto, criterios de aceptación y detalle de flujos (ver sección 5).
 
@@ -9,6 +11,8 @@ Requisitos **mínimos** propuestos por el equipo docente a partir de la [ficha d
 ## 1. Convenciones
 
 ### 1.1 Identificadores
+
+Categorías de requisitos no funcionales: USA (usabilidad), CPT (compatibilidad), REN (rendimiento), SEG (seguridad), PRI (privacidad), DAT (datos), OPE (operación), MAN (mantenibilidad) e IDI (idioma).
 
 | Prefijo | Tipo |
 |---------|------|
@@ -114,7 +118,7 @@ Los requisitos que agregue cada grupo continúan la numeración del módulo (por
 
 | ID | Requisito | Prioridad |
 |----|-----------|-----------|
-| RF-FER-01 | El administrador crea, edita, publica y cancela ferias con: nombre, descripción, imagen, lugar, enlace a mapa, fecha, horario y organizador. | Esencial |
+| RF-FER-01 | El administrador crea, edita, publica y cancela ferias con: nombre, descripción, imagen, lugar y ubicación en el mapa (ver RF-MAP-01), fecha, horario y organizador. | Esencial |
 | RF-FER-02 | El administrador invita emprendedoras y asociaciones a una feria. | Esencial |
 | RF-FER-03 | El administrador agrega directamente una emprendedora o asociación a una feria, sin invitación. | Importante |
 | RF-FER-04 | El administrador ve el checklist de cada feria con el estado de cada participante: invitada, confirmada, rechazada o agregada por el administrador. | Esencial |
@@ -176,6 +180,16 @@ Los requisitos que agregue cada grupo continúan la numeración del módulo (por
 | RF-IA-02 | La emprendedora acepta, edita o descarta cada sugerencia. | Condicionado |
 | RF-IA-03 | La IA no sugiere precios. | Condicionado |
 
+### 3.12 Mapas y ubicación (MAP)
+
+| ID | Requisito | Prioridad |
+|----|-----------|-----------|
+| RF-MAP-01 | Al crear o editar una feria, el administrador fija su ubicación marcando un punto en un mapa o buscando la dirección. | Esencial |
+| RF-MAP-02 | La ficha de la feria muestra un mapa con su ubicación, en la app y en la web, con la opción "Cómo llegar", que abre la aplicación de mapas del celular. | Esencial |
+| RF-MAP-03 | En el modo comprador, la app muestra en un mapa las próximas ferias; si la persona autoriza el uso de su ubicación (GPS), el mapa se centra en su posición y las ferias se ordenan por distancia. | Esencial |
+| RF-MAP-04 | La emprendedora puede indicar, si lo desea, un punto de venta o de retiro (por ejemplo, su local) marcándolo en un mapa; si lo indica, se muestra en su tienda. | Importante |
+| RF-MAP-05 | Al registrar una venta, si la emprendedora autorizó su ubicación y se encuentra en una feria en curso en la que está confirmada, la app sugiere esa feria como lugar de la venta (complementa RF-VEN-05). | Importante |
+
 ## 4. Requisitos no funcionales
 
 | ID | Categoría | Requisito | Prioridad |
@@ -192,12 +206,25 @@ Los requisitos que agregue cada grupo continúan la numeración del módulo (por
 | RNF-SEG-01 | Seguridad | El acceso a datos se controla por perfil en el backend: cada emprendedora solo modifica su tienda; solo el administrador gestiona ferias, asociaciones y cuentas. | Esencial |
 | RNF-SEG-02 | Seguridad | La huella se implementa con la API biométrica del sistema; la app no almacena datos biométricos. | Esencial |
 | RNF-SEG-03 | Seguridad | Credenciales, claves de API y archivos de configuración sensibles no se suben al repositorio. | Esencial |
+| RNF-SEG-04 | Seguridad | Las reglas de seguridad de Firestore y Storage tienen pruebas automatizadas (con Firebase Emulator Suite) que verifican, para cada perfil, qué operaciones se permiten y cuáles se rechazan. | Esencial |
+| RNF-SEG-05 | Seguridad | Se analiza la app, la web y sus dependencias en busca de vulnerabilidades (por ejemplo, con las reglas de seguridad de Android Lint, revisión de dependencias y MobSF), y cada hallazgo se corrige o se justifica. | Esencial |
+| RNF-SEG-06 | Seguridad | La app y la web usan Firebase App Check para detectar y rechazar solicitudes que no provienen de la aplicación legítima. | Importante |
+| RNF-SEG-07 | Seguridad | Las acciones del administrador sobre cuentas, asociaciones y ferias quedan registradas (quién, qué y cuándo) y pueden consultarse. | Importante |
+| RNF-SEG-08 | Seguridad | Se elabora un informe de pruebas de seguridad con los casos probados, las vulnerabilidades detectadas, su gravedad y cómo se corrigieron (reúne los resultados de RNF-SEG-04 a RNF-SEG-07). | Esencial |
 | RNF-PRI-01 | Privacidad | Los datos personales se tratan según la normativa chilena de protección de datos personales. | Esencial |
 | RNF-PRI-02 | Privacidad | El comprador da consentimiento explícito para recibir notificaciones y puede dejar de seguir o darse de baja en cualquier momento. | Esencial |
 | RNF-PRI-03 | Privacidad | Solo son públicos los datos que la emprendedora elige mostrar en su tienda. | Esencial |
+| RNF-PRI-04 | Privacidad | La ubicación del celular se pide solo al usar una función que la necesita, explicando para qué; si se rechaza, la app sigue funcionando (mapa sin posición, ferias ordenadas por fecha). La ubicación de la persona no se guarda en el servidor. | Esencial |
+| RNF-DAT-01 | Datos | El modelo de datos en Firestore está documentado (colecciones, documentos, campos, relaciones e índices) y justificado según las consultas que realiza la plataforma. | Esencial |
+| RNF-DAT-02 | Datos | La app y la web acceden a la base de datos solo mediante una capa de datos (repositorios), sin consultas directas desde las pantallas. | Esencial |
+| RNF-DAT-03 | Datos | La app usa la persistencia local de Firestore: la emprendedora puede consultar su catálogo sin conexión, y los cambios se sincronizan al volver la red. | Importante |
+| RNF-DAT-04 | Datos | Existe un procedimiento para cargar datos de prueba ficticios (emprendedoras, asociaciones, productos y ferias) en un proyecto de Firebase de desarrollo, separado del de producción. | Importante |
 | RNF-OPE-01 | Operación | Las herramientas del administrador son operables por personal no técnico (pensando en el traspaso a la Municipalidad). | Importante |
 | RNF-MAN-01 | Mantenibilidad | La app se desarrolla en Kotlin con Android Studio, con una arquitectura en capas documentada, y el código se versiona en git con un README de ejecución. | Esencial |
 | RNF-MAN-02 | Mantenibilidad | La asistencia de IA se diseña como un módulo desacoplado que puede habilitarse después sin rehacer el flujo de creación de productos. | Importante |
+| RNF-MAN-03 | Mantenibilidad | El grupo trabaja con un flujo de Git definido y documentado: rama principal protegida, ramas por funcionalidad, integración mediante *pull requests* revisados por otro integrante y mensajes de commit descriptivos. | Esencial |
+| RNF-MAN-04 | Mantenibilidad | Cada entrega queda marcada con una etiqueta (`entrega-N`), y el historial del repositorio muestra la contribución de todos los integrantes. | Esencial |
+| RNF-MAN-05 | Mantenibilidad | Los requisitos y tareas se gestionan como *issues* del repositorio, enlazados desde los *pull requests* que los resuelven. | Importante |
 | RNF-IDI-01 | Idioma | Toda la interfaz está en español de Chile. | Esencial |
 
 ## 5. Lo que completa cada grupo

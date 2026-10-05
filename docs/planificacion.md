@@ -2,30 +2,42 @@
 
 | Campo | Valor |
 |-------|-------|
-| Versión | 1.0 |
-| Fecha | 2026-09-30 |
+| Versión | 1.1 |
+| Fecha | 2026-10-05 |
 | Período | 5 de octubre al 23 de noviembre de 2026 |
 | Entregas | 8 (los lunes, salvo la entrega 2, que se presenta en la visita a terreno) |
 | Entrega final | Lunes 23 de noviembre de 2026 |
 
-Base: [ficha de proyecto v1.0](ficha-proyecto.md), [requisitos base](requerimientos-base.md) y [pauta de levantamiento](pauta-levantamiento.md).
+Base: [ficha de proyecto v1.1](ficha-proyecto.md), [requisitos base](requerimientos-base.md) y [pauta de levantamiento](pauta-levantamiento.md).
 
 ---
 
 ## 1. Calendario de entregas
 
-| N.º | Fecha | Entrega |
-|-----|-------|---------|
-| 1 | Lunes 5 de octubre | Diseño conceptual |
-| 2 | **Miércoles 14 de octubre** | Propuesta para la visita y base técnica (se presenta en la visita a la asociación de Alerce) |
-| 3 | Lunes 19 de octubre | Levantamiento, requisitos completos y diseño detallado |
-| 4 | Lunes 26 de octubre | Acceso, administración y tienda |
-| 5 | Lunes 2 de noviembre | Catálogo, productos y ventas |
-| 6 | Lunes 9 de noviembre | Vitrina, modo comprador y difusión |
-| 7 | Lunes 16 de noviembre | Ferias, seguidores y notificaciones |
-| 8 | **Lunes 23 de noviembre** | Producto terminado (entrega final) |
+| N.º | Fecha | Entrega | Evaluación de la asignatura |
+|-----|-------|---------|-----------------------------|
+| 1 | Lunes 5 de octubre | Diseño conceptual | — |
+| 2 | **Miércoles 14 de octubre** | Propuesta para la visita y base técnica (se presenta en la visita a la asociación de Alerce) | — |
+| 3 | Lunes 19 de octubre | Levantamiento, requisitos completos y diseño detallado | Estudio de caso: presentación de la app por Git |
+| 4 | Lunes 26 de octubre | Acceso, administración y tienda | Presentación y conexión a la base de datos |
+| 5 | Lunes 2 de noviembre | Catálogo, productos y ventas | Elementos de seguridad: informe de pruebas y detección |
+| 6 | Lunes 9 de noviembre | Vitrina, modo comprador, difusión y mapas | Prototipo de GPS y mapas |
+| 7 | Lunes 16 de noviembre | Ferias, seguidores y notificaciones | — |
+| 8 | **Lunes 23 de noviembre** | Producto terminado (entrega final) | Proyecto de app: presentación final |
 
-## 2. Reglas comunes a todas las entregas
+## 2. Evaluaciones de la asignatura
+
+Cada evaluación se rinde en la entrega indicada y se apoya en requisitos del proyecto, de modo que sus contenidos quedan incluidos en lo que cada grupo construye.
+
+| Evaluación | Entrega | Qué se evalúa | Requisitos |
+|------------|---------|---------------|------------|
+| Estudio de caso: presentación de la app por Git | 3 (19 oct) | El grupo presenta su proyecto a través del repositorio: flujo de ramas, *pull requests* revisados, *issues* de requisitos, etiquetas por entrega y contribución de cada integrante. | RNF-MAN-03, RNF-MAN-04, RNF-MAN-05 |
+| Presentación y conexión a la base de datos | 4 (26 oct) | Modelo de datos en Firestore y su justificación; conexión desde la app y la web mediante la capa de datos; datos de prueba cargados. | RNF-DAT-01, RNF-DAT-02, RNF-DAT-04, RNF-SEG-01 |
+| Elementos de seguridad: informe de pruebas y detección | 5 (2 nov) | Pruebas automatizadas de las reglas de seguridad, análisis de vulnerabilidades y mecanismos de detección, reunidos en un informe. | RNF-SEG-04, RNF-SEG-05, RNF-SEG-06, RNF-SEG-07, RNF-SEG-08 |
+| Prototipo de GPS y mapas | 6 (9 nov) | Ubicación de ferias en el mapa, mapa de próximas ferias con la posición del usuario y manejo del permiso de ubicación. | RF-MAP-01 a RF-MAP-04, RNF-PRI-04 |
+| Proyecto de app: presentación final | 8 (23 nov) | Plataforma completa, probada y documentada. | Todos los Esenciales |
+
+## 3. Reglas comunes a todas las entregas
 
 Además de los entregables propios, **cada entrega** incluye:
 
@@ -37,7 +49,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 
 ---
 
-## 3. Entregas
+## 4. Entregas
 
 ### Entrega 1 — Diseño conceptual
 
@@ -86,7 +98,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 2. **Guion de revisión del prototipo:** el Guion C de la pauta adaptado a las pantallas del grupo, con las tareas y preguntas que se harán a cada emprendedora.
 3. **Material de la visita:** los dos encargados del trabajo con la emprendedora y sus roles ([pauta de la actividad](pauta-actividad-visita.md)), preguntas propias agregadas a la pauta y material impreso (fichas de registro de producto, hojas de observación de uso, hojas de revisión del prototipo, hoja de consentimiento y QR de prueba).
 4. **Decisiones técnicas:** framework web elegido con su justificación y diagrama preliminar de la arquitectura en capas.
-5. **Proyecto base:** app Android (Kotlin y Jetpack Compose) y web en el repositorio del grupo, conectadas a Firebase, con README de ejecución y `.gitignore` que excluya credenciales.
+5. **Proyecto base:** app Android (Kotlin y Jetpack Compose) y web en el repositorio del grupo, conectadas a Firebase, con README de ejecución y `.gitignore` que excluya credenciales. Desde aquí el grupo trabaja con ramas por funcionalidad y *pull requests* (RNF-MAN-03).
 6. **Primer incremento ejecutable:** pantalla inicial de la app con la separación entre modo comprador y modo emprendedora (RF-ACC-05) y web publicada en Firebase Hosting (URL en el README).
 
 **Criterios de aceptación:**
@@ -112,12 +124,14 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 5. **Guía visual:** colores, tipografía, componentes, íconos con texto y tamaños mínimos de 48 dp (RNF-USA-01, RNF-USA-02).
 6. **Modelo de datos en Firestore:** colecciones, documentos, campos y relaciones, incluidos los campos específicos por tipo de producto.
 7. **Arquitectura en capas definitiva** y borrador de las reglas de seguridad por perfil (RNF-SEG-01).
+8. **Evaluación — Estudio de caso: presentación de la app por Git:** presentación del proyecto a través del repositorio: flujo de trabajo documentado (ramas, *pull requests* y revisión), requisitos cargados como *issues*, etiquetas `entrega-1` a `entrega-3` y contribución de cada integrante (RNF-MAN-03 a 05).
 
 **Criterios de aceptación:**
 
 1. El informe incluye todas las tablas de consolidación de la pauta (sección 9) completas, con las emprendedoras identificadas solo por código (E01, E02…).
 2. Cada requisito nuevo cita el hallazgo que lo origina; cada requisito Esencial está cubierto por al menos una historia de usuario; y todos los Esenciales e Importantes tienen criterios de aceptación en formato "Dado… cuando… entonces…".
 3. Cada cambio anotado en la tabla de retroalimentación (sección 9.6 de la pauta) se ve reflejado en el prototipo, y cada tipo de producto levantado tiene sus campos en el modelo de datos.
+4. La rama principal está protegida, todo cambio desde la entrega 2 entró por un *pull request* revisado por otro integrante, y cada integrante tiene commits propios en el historial.
 
 ---
 
@@ -134,14 +148,17 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 3. **Web — administración de la plataforma:** crear, editar y desactivar cuentas de emprendedora; crear, editar y desactivar asociaciones; asignar y quitar emprendedoras de asociaciones; mantener tipos de emprendimiento, tipos de producto y categorías.
 4. **Web — acceso:** ingreso del comprador con Google o con correo y contraseña, y navegación sin iniciar sesión.
 5. **Reglas de seguridad** de Firestore y Storage por perfil, publicadas.
+6. **Capa de datos:** repositorios en la app y en la web por los que pasa todo acceso a Firestore, y procedimiento para cargar datos de prueba ficticios en un proyecto de Firebase de desarrollo.
+7. **Evaluación — Presentación y conexión a la base de datos:** presentación del modelo de datos en Firestore (colecciones, documentos, relaciones e índices) y su justificación, y demostración de la conexión desde la app y la web: lectura y escritura de datos reales por perfil.
 
-**Requisitos que cubre:** RF-ACC-01, 02, 03, 04, 07, 09 · RF-ADM-01, 03 · RF-ASO-01, 02 · RF-TIE-01 · RNF-SEG-01, 02.
+**Requisitos que cubre:** RF-ACC-01, 02, 03, 04, 07, 09 · RF-ADM-01, 03 · RF-ASO-01, 02 · RF-TIE-01 · RNF-SEG-01, 02 · RNF-DAT-01, 02, 04.
 
 **Criterios de aceptación:**
 
 1. **Dado** que el administrador creó una cuenta de emprendedora en la web, **cuando** ella ingresa en la app con esas credenciales y activa la huella, **entonces** en su siguiente ingreso entra solo con la huella.
 2. **Dado** una emprendedora con sesión iniciada, **cuando** edita los datos de su tienda, **entonces** los cambios se conservan al cerrar y volver a abrir la app, y se ven también desde la web.
 3. **Dado** una emprendedora con sesión iniciada, **cuando** intenta modificar la tienda de otra emprendedora (por ejemplo, desde el simulador de reglas de Firebase), **entonces** la operación es rechazada.
+4. Ninguna pantalla consulta Firestore directamente (todo pasa por los repositorios), y el modelo presentado coincide con los datos que se ven en la consola de Firebase durante la demostración.
 
 ---
 
@@ -158,22 +175,29 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 3. **Registro de ventas:** producto, variante y cantidad, con descuento de stock y retiro de piezas únicas.
 4. **Historial de ventas** opcional (se activa en la configuración), con precio, fecha y lugar, y consulta filtrando por fecha, feria y producto.
 5. **Vista previa del catálogo público** en la app, que muestra cada producto según su configuración.
+6. **Catálogo sin conexión:** la emprendedora consulta su catálogo sin red y los cambios se sincronizan al volver la conexión.
+7. **Evaluación — Elementos de seguridad: informe de pruebas y detección:**
+   - Pruebas automatizadas de las reglas de seguridad con Firebase Emulator Suite, para cada perfil.
+   - Análisis de vulnerabilidades de la app, la web y sus dependencias (Android Lint, revisión de dependencias y MobSF).
+   - Mecanismos de detección: Firebase App Check y registro de las acciones del administrador (Importantes).
+   - Informe de pruebas de seguridad con los casos probados, las vulnerabilidades detectadas, su gravedad y su corrección.
 
-**Requisitos que cubre:** RF-PRO-01 a 12 · RF-VEN-01 a 04 · RF-CFG-06 · RNF-REN-01 · RNF-USA-04.
+**Requisitos que cubre:** RF-PRO-01 a 12 · RF-VEN-01 a 04 · RF-CFG-06 · RNF-REN-01 · RNF-USA-04 · RNF-DAT-03 · RNF-SEG-04, 05, 08 (y 06, 07 si alcanza; si no, en la entrega 8).
 
 **Criterios de aceptación:**
 
 1. **Dado** un producto con variantes que maneja stock, **cuando** la emprendedora registra la venta de una variante, **entonces** se descuenta solo el stock de esa variante; y si llega a cero, el catálogo público aplica la opción "al agotarse" configurada.
 2. **Dado** una pieza única publicada, **cuando** la emprendedora registra su venta, **entonces** desaparece del catálogo público y no vuelve a aparecer.
 3. **Dado** que la emprendedora está creando un producto, **cuando** cierra la app a mitad del flujo y vuelve a abrirla, **entonces** encuentra lo que ya había ingresado.
+4. Las pruebas de reglas se ejecutan con un comando documentado en el README y pasan, e incluyen al menos un caso rechazado por perfil; cada vulnerabilidad del informe tiene su gravedad y su corrección o justificación.
 
 ---
 
-### Entrega 6 — Vitrina, modo comprador y difusión
+### Entrega 6 — Vitrina, modo comprador, difusión y mapas
 
 **Fecha:** lunes 9 de noviembre
 
-**Objetivo:** que cualquier persona pueda conocer a las emprendedoras desde la web o la app, y llegar a ellas por un enlace o un código QR.
+**Objetivo:** que cualquier persona pueda conocer a las emprendedoras desde la web o la app, llegar a ellas por un enlace o un código QR, y ubicar en un mapa las ferias donde estarán.
 
 **Entregables:**
 
@@ -182,15 +206,21 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 3. **Compartir y QR:** compartir tienda, producto y asociación con el menú nativo de Android, y generar, guardar o compartir el QR; cada enlace abre la página web correspondiente.
 4. **Configuración de la tienda:** mostrar u ocultar precios, forma de contacto (WhatsApp, formulario o ambos) y bandeja de contactos recibidos en la app.
 5. **Web — administración de la tienda:** la emprendedora gestiona su tienda, productos y ventas desde la web.
-6. **Web — administración de la plataforma:** configuración de la navegación anónima de la app.
+6. **Web — administración de la plataforma:** configuración de la navegación anónima de la app, y creación y edición de ferias con su ubicación marcada en un mapa.
+7. **Evaluación — Prototipo de GPS y mapas:**
+   - Mapa con la ubicación de cada feria y opción "Cómo llegar", en la app y en la web.
+   - Mapa de próximas ferias en el modo comprador; con permiso de ubicación (GPS), centrado en la posición de la persona y con las ferias ordenadas por distancia.
+   - Punto de venta o retiro opcional de la emprendedora, marcado en un mapa (Importante).
+   - Solicitud del permiso de ubicación solo cuando se necesita, con la app funcionando si se rechaza.
 
-**Requisitos que cubre:** RF-CMP-01, 02, 03, 05 · RF-COM-01 a 03 · RF-ASO-03 · RF-ACC-06 · RF-ADM-02 · RF-CFG-01 a 03 · RF-TIE-02 · RNF-CPT-02 · RNF-PRI-03.
+**Requisitos que cubre:** RF-CMP-01, 02, 03, 05 · RF-COM-01 a 03 · RF-ASO-03 · RF-ACC-06 · RF-ADM-02 · RF-CFG-01 a 03 · RF-TIE-02 · RF-FER-01 · RF-MAP-01 a 04 · RNF-CPT-02 · RNF-PRI-03, 04.
 
 **Criterios de aceptación:**
 
 1. **Dado** el enlace de una tienda compartido por WhatsApp o su código QR, **cuando** se abre en un teléfono sin sesión iniciada, **entonces** se ve la página web de esa tienda con su catálogo público.
 2. **Dado** una emprendedora con "mostrar precios" desactivado, **cuando** un visitante ve sus productos en la web o en la app, **entonces** aparece "Consultar precio" en lugar del precio.
 3. **Dado** que el administrador elige una de las tres opciones de navegación anónima, **cuando** se abre la app en modo comprador sin sesión, **entonces** la app se comporta según esa opción (permitir, invitar con opción de omitir u obligar el ingreso con Google).
+4. **Dado** un comprador que autoriza su ubicación, **cuando** abre el mapa de ferias, **entonces** ve su posición y las ferias ordenadas de la más cercana a la más lejana; y si rechaza el permiso, ve el mapa con las ferias ordenadas por fecha, sin errores.
 
 ---
 
@@ -202,13 +232,13 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 
 **Entregables:**
 
-1. **Web — gestión de ferias:** crear, editar, publicar y cancelar ferias; invitar o agregar directamente emprendedoras y asociaciones; checklist con estados, búsqueda y filtros; envío de recordatorios y avisos; registro de asistencia.
-2. **App — ferias de la emprendedora:** invitación como notificación, respuesta "Participo" o "No participo" con un toque, calendario de sus ferias y sugerencia de la feria del día al registrar una venta.
-3. **Ficha pública de la feria** en la web y en el modo comprador, con los participantes confirmados, una muestra de su catálogo público, enlace al mapa, y opción de compartir y QR.
+1. **Web — gestión de ferias:** publicar y cancelar ferias (la creación con ubicación se entrega en la 6); invitar o agregar directamente emprendedoras y asociaciones; checklist con estados, búsqueda y filtros; envío de recordatorios y avisos; registro de asistencia.
+2. **App — ferias de la emprendedora:** invitación como notificación, respuesta "Participo" o "No participo" con un toque, calendario de sus ferias y sugerencia de la feria al registrar una venta, según la fecha y, si autorizó la ubicación, según dónde está.
+3. **Ficha pública de la feria** en la web y en el modo comprador, con los participantes confirmados, una muestra de su catálogo público, el mapa de la entrega 6, y opción de compartir y QR.
 4. **Seguidores:** seguir y dejar de seguir tiendas y asociaciones (con inicio de sesión si es visitante); aviso por notificación push en la app y por notificación del navegador o correo en la web cuando confirman su participación en una feria.
 5. **Configuraciones restantes de la tienda:** notificaciones de contacto con horario, y calificaciones activables por la emprendedora.
 
-**Requisitos que cubre:** RF-FER-01 a 10 · RF-CMP-04, 06 a 09 · RF-ACC-08 · RF-VEN-05 · RF-CFG-04, 05 · RNF-PRI-02.
+**Requisitos que cubre:** RF-FER-02 a 10 · RF-CMP-04, 06 a 09 · RF-ACC-08 · RF-VEN-05 · RF-MAP-05 · RF-CFG-04, 05 · RNF-PRI-02.
 
 **Criterios de aceptación:**
 
@@ -227,12 +257,13 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 **Entregables:**
 
 1. **Informe de la prueba de uso** con emprendedoras (RNF-USA-05), realizada entre la entrega 7 y la final: tareas realizadas, problemas detectados y correcciones aplicadas.
-2. **Funcionalidades pendientes:** requisitos Importantes que no alcanzaron en su semana (por ejemplo, RF-ACC-10 y RF-ADM-04) y verificación de los no funcionales transversales (RNF-USA-03, RNF-CPT-01, RNF-REN-02, RNF-PRI-01, RNF-OPE-01, RNF-IDI-01).
-3. **Pruebas:** casos de prueba de los criterios de aceptación de todos los requisitos Esenciales, con su resultado.
-4. **Matriz de requisitos** con el estado final de cada uno (cumplido, parcial o pendiente, con su justificación).
-5. **Producto publicado:** APK firmado (o publicación de prueba en Google Play) y web publicada en Firebase Hosting.
-6. **Documentación:** README de ejecución, manual breve para la emprendedora, manual breve para el administrador y descripción de cómo se incorporaría la IA como módulo desacoplado (RNF-MAN-02).
-7. **Presentación final** y demostración de la plataforma completa.
+2. **Funcionalidades pendientes:** requisitos Importantes que no alcanzaron en su semana (por ejemplo, RF-ACC-10, RF-ADM-04, RNF-SEG-06 y RNF-SEG-07) y verificación de los no funcionales transversales (RNF-USA-03, RNF-CPT-01, RNF-REN-02, RNF-PRI-01, RNF-OPE-01, RNF-IDI-01).
+3. **Informe de seguridad actualizado** (RNF-SEG-08): pruebas de reglas y análisis de vulnerabilidades repetidos sobre el producto completo, incluidas ferias, seguidores y mapas.
+4. **Pruebas:** casos de prueba de los criterios de aceptación de todos los requisitos Esenciales, con su resultado.
+5. **Matriz de requisitos** con el estado final de cada uno (cumplido, parcial o pendiente, con su justificación).
+6. **Producto publicado:** APK firmado (o publicación de prueba en Google Play) y web publicada en Firebase Hosting.
+7. **Documentación:** README de ejecución, manual breve para la emprendedora, manual breve para el administrador y descripción de cómo se incorporaría la IA como módulo desacoplado (RNF-MAN-02).
+8. **Evaluación — Proyecto de app: presentación final:** presentación y demostración de la plataforma completa.
 
 **Criterios de aceptación:**
 

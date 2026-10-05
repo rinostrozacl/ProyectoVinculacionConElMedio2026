@@ -2,7 +2,7 @@
 
 Requisitos **mínimos** propuestos por el equipo docente a partir de la [ficha de proyecto v1.1](ficha-proyecto.md). Son el punto de partida común para todos los grupos.
 
-Incluyen los contenidos de las evaluaciones de la asignatura: Git (RNF-MAN-03 a 05), base de datos (RNF-DAT), seguridad (RNF-SEG-04 a 08) y GPS y mapas (RF-MAP, RNF-PRI-04). La entrega en que se evalúa cada uno está en la [planificación](planificacion.md#2-evaluaciones-de-la-asignatura).
+Incluyen los contenidos de las evaluaciones de la asignatura: Git (RNF-MAN-03 a 05), base de datos (RNF-DAT), seguridad (RNF-SEG-04 a 08) y GPS y mapas (RF-MAP, RNF-PRI-04). La entrega y la nota (EVA) en que se evalúa cada uno están en la [planificación](planificacion.md#2-notas-de-la-asignatura).
 
 **Cada grupo debe completarlos** con lo que obtenga del levantamiento con la contraparte ([pauta de levantamiento](pauta-levantamiento.md)): requisitos nuevos, campos específicos por tipo de producto, criterios de aceptación y detalle de flujos (ver sección 5).
 

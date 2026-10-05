@@ -2,7 +2,7 @@
 
 | Campo | Valor |
 |-------|-------|
-| Versión | 1.1 |
+| Versión | 1.2 |
 | Fecha | 2026-10-05 |
 | Período | 5 de octubre al 23 de noviembre de 2026 |
 | Entregas | 8 (los lunes, salvo la entrega 2, que se presenta en la visita a terreno) |
@@ -14,28 +14,39 @@ Base: [ficha de proyecto v1.1](ficha-proyecto.md), [requisitos base](requerimien
 
 ## 1. Calendario de entregas
 
-| N.º | Fecha | Entrega | Evaluación de la asignatura |
-|-----|-------|---------|-----------------------------|
-| 1 | Lunes 5 de octubre | Diseño conceptual | — |
-| 2 | **Miércoles 14 de octubre** | Propuesta para la visita y base técnica (se presenta en la visita a la asociación de Alerce) | — |
-| 3 | Lunes 19 de octubre | Levantamiento, requisitos completos y diseño detallado | Estudio de caso: presentación de la app por Git |
-| 4 | Lunes 26 de octubre | Acceso, administración y tienda | Presentación y conexión a la base de datos |
-| 5 | Lunes 2 de noviembre | Catálogo, productos y ventas | Elementos de seguridad: informe de pruebas y detección |
-| 6 | Lunes 9 de noviembre | Vitrina, modo comprador, difusión y mapas | Prototipo de GPS y mapas |
-| 7 | Lunes 16 de noviembre | Ferias, seguidores y notificaciones | — |
-| 8 | **Lunes 23 de noviembre** | Producto terminado (entrega final) | Proyecto de app: presentación final |
+| N.º | Fecha | Entrega | Nota |
+|-----|-------|---------|------|
+| 1 | Lunes 5 de octubre | Diseño conceptual | EVA 2 |
+| 2 | **Miércoles 14 de octubre** | Propuesta para la visita y base técnica (se presenta en la visita a la asociación de Alerce) | EVA 2 |
+| 3 | Lunes 19 de octubre | Levantamiento, requisitos completos y diseño detallado | EVA 3 |
+| 4 | Lunes 26 de octubre | Acceso, administración y tienda | EVA 3 |
+| 5 | Lunes 2 de noviembre | Catálogo, productos y ventas | EVA 3 |
+| 6 | Lunes 9 de noviembre | Vitrina, modo comprador, difusión y mapas | EVA 4 |
+| 7 | Lunes 16 de noviembre | Ferias, seguidores y notificaciones | EVA 4 |
+| 8 | **Lunes 23 de noviembre** | Producto terminado (entrega final) | EVA 5 |
 
-## 2. Evaluaciones de la asignatura
+## 2. Notas de la asignatura
 
-Cada evaluación se rinde en la entrega indicada y se apoya en requisitos del proyecto, de modo que sus contenidos quedan incluidos en lo que cada grupo construye.
+Las notas se organizan según las entregas del proyecto (la EVA 1 corresponde a la Unidad 1 y queda fuera del proyecto). Cada entrega se califica con sus criterios de aceptación, y la nota de cada EVA pondera sus entregas.
 
-| Evaluación | Entrega | Qué se evalúa | Requisitos |
-|------------|---------|---------------|------------|
-| Estudio de caso: presentación de la app por Git | 3 (19 oct) | El grupo presenta su proyecto a través del repositorio: flujo de ramas, *pull requests* revisados, *issues* de requisitos, etiquetas por entrega y contribución de cada integrante. | RNF-MAN-03, RNF-MAN-04, RNF-MAN-05 |
-| Presentación y conexión a la base de datos | 4 (26 oct) | Modelo de datos en Firestore y su justificación; conexión desde la app y la web mediante la capa de datos; datos de prueba cargados. | RNF-DAT-01, RNF-DAT-02, RNF-DAT-04, RNF-SEG-01 |
-| Elementos de seguridad: informe de pruebas y detección | 5 (2 nov) | Pruebas automatizadas de las reglas de seguridad, análisis de vulnerabilidades y mecanismos de detección, reunidos en un informe. | RNF-SEG-04, RNF-SEG-05, RNF-SEG-06, RNF-SEG-07, RNF-SEG-08 |
-| Prototipo de GPS y mapas | 6 (9 nov) | Ubicación de ferias en el mapa, mapa de próximas ferias con la posición del usuario y manejo del permiso de ubicación. | RF-MAP-01 a RF-MAP-04, RNF-PRI-04 |
-| Proyecto de app: presentación final | 8 (23 nov) | Plataforma completa, probada y documentada. | Todos los Esenciales |
+| Nota | Nombre | Entregas y ponderación | Contenidos de la asignatura que incluye |
+|------|--------|------------------------|------------------------------------------|
+| **EVA 2** | Diseño y propuesta | Entrega 1: 40 % · Entrega 2: 60 % | Prototipo de la propuesta y puesta en marcha del repositorio con flujo de Git |
+| **EVA 3** | Especificación y construcción base | Entrega 3: 30 % · Entrega 4: 35 % · Entrega 5: 35 % | Estudio de caso: presentación de la app por Git (entrega 3) · Presentación y conexión a la base de datos (entrega 4) · Elementos de seguridad: informe de pruebas y detección (entrega 5) |
+| **EVA 4** | Vitrina, mapas y ferias | Entrega 6: 50 % · Entrega 7: 50 % | Prototipo de GPS y mapas (entrega 6) |
+| **EVA 5** | Producto final | Entrega 8: 100 % | Proyecto de app: presentación final |
+
+### 2.1 Contenidos de la asignatura y requisitos asociados
+
+Cada contenido se evalúa dentro de la entrega indicada y se apoya en requisitos del proyecto.
+
+| Contenido | Entrega (nota) | Qué se evalúa | Requisitos |
+|-----------|----------------|---------------|------------|
+| Estudio de caso: presentación de la app por Git | 3 (EVA 3) | El grupo presenta su proyecto a través del repositorio: flujo de ramas, *pull requests* revisados, *issues* de requisitos, etiquetas por entrega y contribución de cada integrante. | RNF-MAN-03, RNF-MAN-04, RNF-MAN-05 |
+| Presentación y conexión a la base de datos | 4 (EVA 3) | Modelo de datos en Firestore y su justificación; conexión desde la app y la web mediante la capa de datos; datos de prueba cargados. | RNF-DAT-01, RNF-DAT-02, RNF-DAT-04, RNF-SEG-01 |
+| Elementos de seguridad: informe de pruebas y detección | 5 (EVA 3) | Pruebas automatizadas de las reglas de seguridad, análisis de vulnerabilidades y mecanismos de detección, reunidos en un informe. | RNF-SEG-04, RNF-SEG-05, RNF-SEG-06, RNF-SEG-07, RNF-SEG-08 |
+| Prototipo de GPS y mapas | 6 (EVA 4) | Ubicación de ferias en el mapa, mapa de próximas ferias con la posición del usuario y manejo del permiso de ubicación. | RF-MAP-01 a RF-MAP-04, RNF-PRI-04 |
+| Proyecto de app: presentación final | 8 (EVA 5) | Plataforma completa, probada y documentada. | Todos los Esenciales |
 
 ## 3. Reglas comunes a todas las entregas
 
@@ -53,7 +64,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 
 ### Entrega 1 — Diseño conceptual
 
-**Fecha:** lunes 5 de octubre
+**Fecha:** lunes 5 de octubre · **Nota:** EVA 2 (40 %)
 
 **Objetivo:** definir la visión del grupo sobre la plataforma a partir de la ficha y los requisitos base: quiénes la usan, qué hacen en ella, cómo navegan y qué información maneja, dejando explícito lo que hay que confirmar en terreno.
 
@@ -81,7 +92,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 
 ### Entrega 2 — Propuesta para la visita y base técnica
 
-**Fecha:** miércoles 14 de octubre, en la visita a la asociación de Alerce
+**Fecha:** miércoles 14 de octubre, en la visita a la asociación de Alerce · **Nota:** EVA 2 (60 %)
 
 **Objetivo:** llegar a terreno con una propuesta concreta que las emprendedoras puedan usar y comentar, con todo lo necesario para levantar información, y dejar el proyecto técnico listo para empezar a construir.
 
@@ -111,7 +122,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 
 ### Entrega 3 — Levantamiento, requisitos completos y diseño detallado
 
-**Fecha:** lunes 19 de octubre
+**Fecha:** lunes 19 de octubre · **Nota:** EVA 3 (30 %)
 
 **Objetivo:** convertir lo observado en la visita en una especificación cerrada y en un diseño listo para construir.
 
@@ -124,7 +135,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 5. **Guía visual:** colores, tipografía, componentes, íconos con texto y tamaños mínimos de 48 dp (RNF-USA-01, RNF-USA-02).
 6. **Modelo de datos en Firestore:** colecciones, documentos, campos y relaciones, incluidos los campos específicos por tipo de producto.
 7. **Arquitectura en capas definitiva** y borrador de las reglas de seguridad por perfil (RNF-SEG-01).
-8. **Evaluación — Estudio de caso: presentación de la app por Git:** presentación del proyecto a través del repositorio: flujo de trabajo documentado (ramas, *pull requests* y revisión), requisitos cargados como *issues*, etiquetas `entrega-1` a `entrega-3` y contribución de cada integrante (RNF-MAN-03 a 05).
+8. **Contenido evaluado — Estudio de caso: presentación de la app por Git:** presentación del proyecto a través del repositorio: flujo de trabajo documentado (ramas, *pull requests* y revisión), requisitos cargados como *issues*, etiquetas `entrega-1` a `entrega-3` y contribución de cada integrante (RNF-MAN-03 a 05).
 
 **Criterios de aceptación:**
 
@@ -137,7 +148,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 
 ### Entrega 4 — Acceso, administración y tienda
 
-**Fecha:** lunes 26 de octubre
+**Fecha:** lunes 26 de octubre · **Nota:** EVA 3 (35 %)
 
 **Objetivo:** que existan los tres perfiles con acceso seguro y que el administrador pueda poblar la plataforma con asociaciones y emprendedoras.
 
@@ -149,7 +160,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 4. **Web — acceso:** ingreso del comprador con Google o con correo y contraseña, y navegación sin iniciar sesión.
 5. **Reglas de seguridad** de Firestore y Storage por perfil, publicadas.
 6. **Capa de datos:** repositorios en la app y en la web por los que pasa todo acceso a Firestore, y procedimiento para cargar datos de prueba ficticios en un proyecto de Firebase de desarrollo.
-7. **Evaluación — Presentación y conexión a la base de datos:** presentación del modelo de datos en Firestore (colecciones, documentos, relaciones e índices) y su justificación, y demostración de la conexión desde la app y la web: lectura y escritura de datos reales por perfil.
+7. **Contenido evaluado — Presentación y conexión a la base de datos:** presentación del modelo de datos en Firestore (colecciones, documentos, relaciones e índices) y su justificación, y demostración de la conexión desde la app y la web: lectura y escritura de datos reales por perfil.
 
 **Requisitos que cubre:** RF-ACC-01, 02, 03, 04, 07, 09 · RF-ADM-01, 03 · RF-ASO-01, 02 · RF-TIE-01 · RNF-SEG-01, 02 · RNF-DAT-01, 02, 04.
 
@@ -164,7 +175,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 
 ### Entrega 5 — Catálogo, productos y ventas
 
-**Fecha:** lunes 2 de noviembre
+**Fecha:** lunes 2 de noviembre · **Nota:** EVA 3 (35 %)
 
 **Objetivo:** que la emprendedora administre su catálogo completo, a su manera, y registre sus ventas.
 
@@ -176,7 +187,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 4. **Historial de ventas** opcional (se activa en la configuración), con precio, fecha y lugar, y consulta filtrando por fecha, feria y producto.
 5. **Vista previa del catálogo público** en la app, que muestra cada producto según su configuración.
 6. **Catálogo sin conexión:** la emprendedora consulta su catálogo sin red y los cambios se sincronizan al volver la conexión.
-7. **Evaluación — Elementos de seguridad: informe de pruebas y detección:**
+7. **Contenido evaluado — Elementos de seguridad: informe de pruebas y detección:**
    - Pruebas automatizadas de las reglas de seguridad con Firebase Emulator Suite, para cada perfil.
    - Análisis de vulnerabilidades de la app, la web y sus dependencias (Android Lint, revisión de dependencias y MobSF).
    - Mecanismos de detección: Firebase App Check y registro de las acciones del administrador (Importantes).
@@ -195,7 +206,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 
 ### Entrega 6 — Vitrina, modo comprador, difusión y mapas
 
-**Fecha:** lunes 9 de noviembre
+**Fecha:** lunes 9 de noviembre · **Nota:** EVA 4 (50 %)
 
 **Objetivo:** que cualquier persona pueda conocer a las emprendedoras desde la web o la app, llegar a ellas por un enlace o un código QR, y ubicar en un mapa las ferias donde estarán.
 
@@ -207,7 +218,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 4. **Configuración de la tienda:** mostrar u ocultar precios, forma de contacto (WhatsApp, formulario o ambos) y bandeja de contactos recibidos en la app.
 5. **Web — administración de la tienda:** la emprendedora gestiona su tienda, productos y ventas desde la web.
 6. **Web — administración de la plataforma:** configuración de la navegación anónima de la app, y creación y edición de ferias con su ubicación marcada en un mapa.
-7. **Evaluación — Prototipo de GPS y mapas:**
+7. **Contenido evaluado — Prototipo de GPS y mapas:**
    - Mapa con la ubicación de cada feria y opción "Cómo llegar", en la app y en la web.
    - Mapa de próximas ferias en el modo comprador; con permiso de ubicación (GPS), centrado en la posición de la persona y con las ferias ordenadas por distancia.
    - Punto de venta o retiro opcional de la emprendedora, marcado en un mapa (Importante).
@@ -226,7 +237,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 
 ### Entrega 7 — Ferias, seguidores y notificaciones
 
-**Fecha:** lunes 16 de noviembre
+**Fecha:** lunes 16 de noviembre · **Nota:** EVA 4 (50 %)
 
 **Objetivo:** completar la gestión centralizada de ferias y los avisos a seguidores. Es la **última entrega con funcionalidades nuevas**; después solo se prueba, corrige y documenta.
 
@@ -250,7 +261,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 
 ### Entrega 8 — Producto terminado (entrega final)
 
-**Fecha:** lunes 23 de noviembre
+**Fecha:** lunes 23 de noviembre · **Nota:** EVA 5 (100 %)
 
 **Objetivo:** entregar una plataforma estable, probada con usuarias reales y documentada, lista para presentarse a las emprendedoras.
 
@@ -263,7 +274,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 5. **Matriz de requisitos** con el estado final de cada uno (cumplido, parcial o pendiente, con su justificación).
 6. **Producto publicado:** APK firmado (o publicación de prueba en Google Play) y web publicada en Firebase Hosting.
 7. **Documentación:** README de ejecución, manual breve para la emprendedora, manual breve para el administrador y descripción de cómo se incorporaría la IA como módulo desacoplado (RNF-MAN-02).
-8. **Evaluación — Proyecto de app: presentación final:** presentación y demostración de la plataforma completa.
+8. **Contenido evaluado — Proyecto de app: presentación final:** presentación y demostración de la plataforma completa.
 
 **Criterios de aceptación:**
 

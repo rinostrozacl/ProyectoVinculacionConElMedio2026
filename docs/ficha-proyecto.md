@@ -374,7 +374,7 @@ Las fechas y el contenido de cada entrega semanal están en la [planificación](
 | Requisitos | Los docentes proponen los requisitos base; cada grupo levanta y agrega el resto. |
 | Nombre comercial | Lo propone cada grupo. |
 | Mapas y GPS (v1.1) | Ubicación de ferias en el mapa, mapa de ferias cercanas con permiso de ubicación y punto de venta opcional de la emprendedora. |
-| Evaluaciones (v1.1) | Los contenidos evaluados en la asignatura (Git, base de datos, seguridad, GPS y mapas, presentación final) se incluyen como requisitos del proyecto; ver la [planificación](planificacion.md). |
+| Evaluaciones (v1.1) | Las notas se organizan por entregas: EVA 2 (entregas 1 y 2), EVA 3 (entregas 3 a 5), EVA 4 (entregas 6 y 7) y EVA 5 (entrega 8). Los contenidos de la asignatura (Git, base de datos, seguridad, GPS y mapas, presentación final) se incluyen como requisitos y se evalúan dentro de esas entregas; ver la [planificación](planificacion.md#2-notas-de-la-asignatura). |
 
 ## 13. Próximos pasos
 

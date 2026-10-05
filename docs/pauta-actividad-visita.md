@@ -4,7 +4,7 @@
 |-------|-------|
 | Fecha | Miércoles 14 de octubre de 2026 |
 | Lugar | Centro de Vinculación con el Medio, Alerce (Puerto Montt) — *por confirmar* |
-| Horario | *Por confirmar* (duración estimada: 2 horas) |
+| Horario | *Por confirmar* (duración estimada: 1 hora 25 minutos) |
 | Participantes | Emprendedoras de la asociación, Vinculación con el Medio, jefatura de carrera de Informática, docente y grupos de estudiantes |
 | Entrega asociada | Entrega 2 ([planificación](planificacion.md)) |
 
@@ -14,20 +14,22 @@
 
 | # | Actividad | Responsable | Duración |
 |---|-----------|-------------|----------|
-| 1 | **Bienvenida y presentación de Vinculación con el Medio:** el vínculo con la asociación y el sentido de la actividad. | Paulina (Vinculación con el Medio) | 10 min |
-| 2 | **Saludo de la carrera:** la carrera de Informática y su compromiso con el proyecto. | Jefe de carrera de Informática | 5 a 10 min |
-| 3 | **Presentación del proyecto:** qué es la plataforma, cómo trabajarán los grupos durante el semestre y cómo participarán las emprendedoras. Explicar que varios grupos harán propuestas y que la mejor se presentará a la asociación. | Docente | 15 min |
-| 4 | **Trabajo de requisitos y validación:** cada grupo trabaja con una o más emprendedoras según la [pauta de levantamiento](pauta-levantamiento.md). | Grupos de estudiantes con las emprendedoras | 60 a 75 min |
+| 1 | **Bienvenida y presentación de Vinculación con el Medio:** el vínculo con la asociación y el sentido de la actividad. | Paulina (Vinculación con el Medio) | 15 min |
+| 2 | **Saludo de la carrera:** la carrera de Informática y su compromiso con el proyecto. | Jefe de carrera de Informática | 10 min |
+| 3 | **Presentación del proyecto:** qué es la plataforma, cómo trabajarán los grupos durante el semestre y cómo participarán las emprendedoras. Explicar que varios grupos harán propuestas y que la mejor se presentará a la asociación. | Docente | 10 min |
+| 4 | **Trabajo de requisitos y validación:** cada grupo trabaja con una emprendedora según la [pauta de levantamiento](pauta-levantamiento.md). | Grupos de estudiantes con las emprendedoras | 40 min |
 | 5 | **Cierre:** agradecimientos y próximos pasos (prueba de la aplicación en noviembre y presentación de la solución ganadora). | Docente y Vinculación con el Medio | 10 min |
 
 ### Detalle del trabajo de requisitos y validación (punto 4)
 
-Por cada emprendedora, en este orden:
+En los 40 minutos, con cada emprendedora y en este orden:
 
-1. **Consentimiento** (sección 3 de la pauta): explicar quiénes son y pedir autorización para notas y fotos de productos.
-2. **Entrevista** (Guion A) y **ficha de registro de productos** (sección 7): 20 a 25 min.
-3. **Observación del uso del celular** (sección 8): 10 a 15 min.
-4. **Revisión de la propuesta del grupo** con el prototipo (Guion C, sección 6): 10 a 15 min. Siempre al final, para no condicionar las respuestas anteriores.
+1. **Consentimiento** (sección 3 de la pauta): explicar quiénes son y pedir autorización para notas y fotos de productos. Unos 2 min.
+2. **Entrevista** (Guion A) y **ficha de registro de productos** (sección 7): 20 min. Priorizar los bloques 2 (productos) y 3 (cómo vende).
+3. **Observación del uso del celular** (sección 8): 8 min.
+4. **Revisión de la propuesta del grupo** con el prototipo (Guion C, sección 6): 10 min. Siempre al final, para no condicionar las respuestas anteriores.
+
+Con este tiempo, cada grupo trabaja con una emprendedora. Si hay menos emprendedoras que grupos, dos grupos comparten una emprendedora y se reparten los roles.
 
 Si la dirigencia de la asociación está disponible, un grupo designado por el docente aplica el Guion B.
 

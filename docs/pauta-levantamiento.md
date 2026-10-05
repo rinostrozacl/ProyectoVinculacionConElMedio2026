@@ -57,7 +57,7 @@ En grupos pequeños, una persona puede cumplir dos roles, pero el entrevistador 
 - **Fotos:** solo de productos, y solo con autorización. No fotografiar personas sin su consentimiento explícito.
 - **Expectativas:** no prometer funciones, fechas ni que "su" aplicación será la que usarán. Explicar que varios grupos trabajan en propuestas y que la mejor se presentará a la asociación.
 - **Lenguaje:** simple y cercano, sin tecnicismos. Tratar de "usted" salvo que la persona indique otra cosa. Evitar palabras como "stock", "variante", "app" o "link" sin explicarlas; preferir "cuántos tiene hechos", "tallas o colores", "aplicación", "enlace que se manda por WhatsApp".
-- **Tiempo:** respetar el tiempo acordado (sugerido: 30 a 40 minutos de entrevista y observación por emprendedora, más 10 a 15 minutos de revisión de la propuesta).
+- **Tiempo:** respetar el tiempo acordado: 40 minutos por emprendedora (20 de entrevista y registro de productos, 8 de observación de uso y 10 de revisión de la propuesta), según la [pauta de la actividad](pauta-actividad-visita.md).
 
 ## 4. Guion A — Entrevista a emprendedora
 
@@ -129,7 +129,7 @@ Aplicar a la presidenta u otra dirigenta, si está disponible.
 
 ## 6. Guion C — Revisión de la propuesta del grupo
 
-Se aplica **al final** de la conversación con cada emprendedora, después del Guion A y de la observación de uso, para no condicionar sus respuestas anteriores. Duración sugerida: 10 a 15 minutos.
+Se aplica **al final** de la conversación con cada emprendedora, después del Guion A y de la observación de uso, para no condicionar sus respuestas anteriores. Duración: 10 minutos.
 
 ### 6.1 Cómo presentarla
 

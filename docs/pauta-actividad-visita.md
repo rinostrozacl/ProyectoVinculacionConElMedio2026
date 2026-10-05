@@ -17,10 +17,12 @@
 | 1 | **Bienvenida y presentación de Vinculación con el Medio:** el vínculo con la asociación y el sentido de la actividad. | Paulina (Vinculación con el Medio) | 15 min |
 | 2 | **Saludo de la carrera:** la carrera de Informática y su compromiso con el proyecto. | Jefe de carrera de Informática | 10 min |
 | 3 | **Presentación del proyecto:** qué es la plataforma, cómo trabajarán los grupos durante el semestre y cómo participarán las emprendedoras. Explicar que varios grupos harán propuestas y que la mejor se presentará a la asociación. | Docente | 10 min |
-| 4 | **Trabajo de requisitos y validación:** cada grupo trabaja con una emprendedora según la [pauta de levantamiento](pauta-levantamiento.md). | Grupos de estudiantes con las emprendedoras | 40 min |
+| 4 | **Trabajo de requisitos y validación:** cada grupo trabaja con una emprendedora según la [pauta de levantamiento](pauta-levantamiento.md). | Dos encargados por grupo, con las emprendedoras | 40 min |
 | 5 | **Cierre:** agradecimientos y próximos pasos (prueba de la aplicación en noviembre y presentación de la solución ganadora). | Docente y Vinculación con el Medio | 10 min |
 
 ### Detalle del trabajo de requisitos y validación (punto 4)
+
+**Quiénes:** cada grupo designa a **dos estudiantes encargados** de realizar el trabajo con la emprendedora, que se reparten los roles según la [pauta de levantamiento](pauta-levantamiento.md#22-roles-dentro-del-grupo). **Todos los integrantes del grupo deben asistir a la salida a terreno**; quienes no son encargados acompañan sin intervenir en la conversación, para no abrumar a la emprendedora.
 
 En los 40 minutos, con cada emprendedora y en este orden:
 
@@ -29,7 +31,7 @@ En los 40 minutos, con cada emprendedora y en este orden:
 3. **Observación del uso del celular** (sección 8): 8 min.
 4. **Revisión de la propuesta del grupo** con el prototipo (Guion C, sección 6): 10 min. Siempre al final, para no condicionar las respuestas anteriores.
 
-Con este tiempo, cada grupo trabaja con una emprendedora. Si hay menos emprendedoras que grupos, dos grupos comparten una emprendedora y se reparten los roles.
+Con este tiempo, cada grupo trabaja con una emprendedora. Si hay menos emprendedoras que grupos, dos grupos comparten una emprendedora: los encargados de un grupo conducen la conversación, los del otro registran, y ambos grupos comparten las notas.
 
 Si la dirigencia de la asociación está disponible, un grupo designado por el docente aplica el Guion B.
 
@@ -37,4 +39,5 @@ Si la dirigencia de la asociación está disponible, un grupo designado por el d
 
 - Confirmar con Vinculación con el Medio el lugar, el horario y el número de emprendedoras asistentes.
 - Asignar emprendedoras a cada grupo según el número de asistentes.
-- Cada grupo llega con su entrega 2: prototipo cargado en un celular, roles asignados y material impreso.
+- Cada grupo informa al docente quiénes son sus dos encargados.
+- Cada grupo llega completo, con su entrega 2: prototipo cargado en un celular, encargados y roles definidos, y material impreso.

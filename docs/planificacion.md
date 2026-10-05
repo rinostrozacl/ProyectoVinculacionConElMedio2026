@@ -84,7 +84,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 
    Incluye además una o dos pantallas de lo que vería un comprador (tienda y producto), con ejemplos de productos plausibles de la zona y sin datos personales reales.
 2. **Guion de revisión del prototipo:** el Guion C de la pauta adaptado a las pantallas del grupo, con las tareas y preguntas que se harán a cada emprendedora.
-3. **Material de la visita:** roles asignados dentro del grupo, preguntas propias agregadas a la pauta y material impreso (fichas de registro de producto, hojas de observación de uso, hojas de revisión del prototipo, hoja de consentimiento y QR de prueba).
+3. **Material de la visita:** los dos encargados del trabajo con la emprendedora y sus roles ([pauta de la actividad](pauta-actividad-visita.md)), preguntas propias agregadas a la pauta y material impreso (fichas de registro de producto, hojas de observación de uso, hojas de revisión del prototipo, hoja de consentimiento y QR de prueba).
 4. **Decisiones técnicas:** framework web elegido con su justificación y diagrama preliminar de la arquitectura en capas.
 5. **Proyecto base:** app Android (Kotlin y Jetpack Compose) y web en el repositorio del grupo, conectadas a Firebase, con README de ejecución y `.gitignore` que excluya credenciales.
 6. **Primer incremento ejecutable:** pantalla inicial de la app con la separación entre modo comprador y modo emprendedora (RF-ACC-05) y web publicada en Firebase Hosting (URL en el README).
@@ -92,7 +92,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 **Criterios de aceptación:**
 
 1. Una persona ajena al grupo, en un celular, completa las cinco tareas del prototipo de principio a fin sin encontrar pantallas sin salida ni botones que no lleven a ninguna parte.
-2. Al llegar a la visita, el grupo tiene el prototipo cargado en un celular (funciona sin depender del wifi del lugar), los roles asignados y el material impreso completo.
+2. Al llegar a la visita, el grupo asiste completo, con el prototipo cargado en un celular (funciona sin depender del wifi del lugar), sus dos encargados con roles definidos y el material impreso completo.
 3. La app se instala en un dispositivo o emulador y muestra la pantalla inicial con los dos modos; la web abre desde su URL pública; el repositorio no contiene `google-services.json`, claves ni contraseñas.
 
 ---

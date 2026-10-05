@@ -39,7 +39,14 @@ Base: [ficha de proyecto v1.0](ficha-proyecto.md) y [requisitos base](requerimie
 | Observador/a de productos | Completa una ficha de registro por producto (sección 7) y toma fotos si hay autorización. |
 | Observador/a de uso | Conduce las tareas con el celular (sección 8) y la revisión del prototipo (sección 6), y anota qué pasa. |
 
-En grupos pequeños, una persona puede cumplir dos roles, pero el entrevistador no debería ser también el registrador.
+Cada grupo designa a **dos encargados** del trabajo con la emprendedora, que se reparten los cuatro roles así:
+
+| Encargado | Roles |
+|-----------|-------|
+| Encargado 1 | Entrevistador/a y observador/a de uso: conduce la conversación, las tareas con el celular y la revisión del prototipo. |
+| Encargado 2 | Registrador/a y observador/a de productos: toma notas, completa las fichas de producto y toma fotos autorizadas. |
+
+El entrevistador no debe ser también el registrador. Todo el grupo asiste a la visita; quienes no son encargados acompañan sin intervenir en la conversación.
 
 ### 2.3 Materiales
 

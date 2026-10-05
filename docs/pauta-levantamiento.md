@@ -4,7 +4,7 @@ Guía para que cada grupo realice el levantamiento con la asociación de emprend
 
 Base: [ficha de proyecto v1.0](ficha-proyecto.md) y [requisitos base](requerimientos-base.md).
 
-**Fecha de la visita:** miércoles 14 de octubre de 2026. Ese día cada grupo presenta su entrega 2 y llega con su propuesta (prototipo navegable) para revisarla con las emprendedoras; el informe se entrega en la entrega 3, el lunes 19 de octubre ([planificación](planificacion.md)).
+**Fecha de la visita:** miércoles 14 de octubre de 2026. Ese día cada grupo presenta su entrega 2 y llega con su propuesta (prototipo navegable) para revisarla con las emprendedoras; el informe se entrega en la entrega 3, el lunes 19 de octubre ([planificación](planificacion.md)). El programa del día está en la [pauta de la actividad](pauta-actividad-visita.md).
 
 ---
 

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Resumen ejecutivo — Marketplace para emprendedores</title>
+<style>
+  @page { size: A4; margin: 0; }
+
+  :root {
+    --tinta: #1f2a30;
+    --suave: #55646c;
+    --primario: #0f4c5c;
+    --acento: #d9622b;
+    --fondo: #f4f1ea;
+    --linea: #dcd6c8;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    color: var(--tinta);
+    font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+    font-size: 9.3pt;
+    line-height: 1.4;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .pagina {
+    width: 210mm;
+    height: 297mm;
+    padding: 13mm 15mm 11mm;
+    position: relative;
+    overflow: hidden;
+    page-break-after: always;
+  }
+  .pagina:last-child { page-break-after: auto; }
+
+  h1, h2, h3 { margin: 0; line-height: 1.2; }
+
+  /* Encabezado */
+  .cabecera {
+    background: var(--primario);
+    color: #fff;
+    margin: -13mm -15mm 0;
+    padding: 9mm 15mm 7mm;
+  }
+  .etiqueta {
+    font-size: 8pt;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    opacity: .8;
+  }
+  .cabecera h1 { font-size: 24pt; margin: 2mm 0 1.5mm; letter-spacing: -.01em; }
+  .cabecera .bajada { font-size: 11.5pt; max-width: 165mm; opacity: .95; }
+
+  .ficha-datos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    border-bottom: 1px solid var(--linea);
+    margin: 0 -15mm;
+    padding: 0 15mm;
+    background: var(--fondo);
+  }
+  .ficha-datos div { padding: 2mm 3mm 2mm 0; }
+  .ficha-datos b {
+    display: block;
+    font-size: 7pt;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: var(--suave);
+    font-weight: 600;
+  }
+
+  /* Secciones */
+  section { margin-top: 4.2mm; }
+  h2 {
+    font-size: 12pt;
+    color: var(--primario);
+    margin-bottom: 2mm;
+    display: flex;
+    align-items: center;
+    gap: 2.5mm;
+  }
+  h2 .num {
+    display: inline-flex;
+    width: 6mm; height: 6mm;
+    border-radius: 50%;
+    background: var(--acento);
+    color: #fff;
+    font-size: 8.5pt;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+  }
+  p { margin: 0 0 2mm; }
+  ul { margin: 0; padding-left: 4.5mm; }
+  li { margin-bottom: 1.2mm; }
+  li::marker { color: var(--acento); }
+
+  .resumen {
+    margin-top: 4.5mm;
+    border-left: 3px solid var(--acento);
+    background: #fbf8f2;
+    padding: 3mm 4.5mm;
+    font-size: 10pt;
+  }
+  .resumen b.titulo {
+    display: block;
+    font-size: 7.6pt;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--acento);
+    margin-bottom: 1mm;
+  }
+
+  .dos-columnas { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+
+  .tarjetas { display: grid; gap: 3mm; }
+  .tarjetas.tres { grid-template-columns: repeat(3, 1fr); }
+  .tarjetas.cuatro { grid-template-columns: repeat(4, 1fr); }
+  .tarjetas.dos { grid-template-columns: repeat(2, 1fr); }
+  .tarjeta {
+    border: 1px solid var(--linea);
+    border-radius: 2.5mm;
+    padding: 3mm 3.5mm;
+    background: #fff;
+  }
+  .tarjeta h3 { font-size: 10pt; color: var(--primario); margin-bottom: 1.2mm; }
+  .tarjeta p { margin: 0; font-size: 9pt; }
+  .tarjeta .icono {
+    font-size: 7.4pt;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--acento);
+    display: block;
+    margin-bottom: .8mm;
+  }
+
+  /* Línea de tiempo */
+  .linea-tiempo { list-style: none; padding: 0; margin: 0; position: relative; }
+  .linea-tiempo::before {
+    content: "";
+    position: absolute;
+    left: 25.1mm; top: 1.5mm; bottom: 1.5mm;
+    width: 2px;
+    background: var(--linea);
+  }
+  .linea-tiempo li {
+    display: grid;
+    grid-template-columns: 23mm 1fr;
+    gap: 5mm;
+    margin-bottom: 2mm;
+    position: relative;
+  }
+  .linea-tiempo li::before {
+    content: "";
+    position: absolute;
+    left: 24.1mm; top: 1.3mm;
+    width: 2.4mm; height: 2.4mm;
+    border-radius: 50%;
+    background: var(--primario);
+  }
+  .linea-tiempo li.hito::before { background: var(--acento); width: 3mm; height: 3mm; left: 23.8mm; top: 1mm; }
+  .linea-tiempo .fecha { text-align: right; font-weight: 700; color: var(--primario); font-size: 8.8pt; }
+  .linea-tiempo li.hito .fecha { color: var(--acento); }
+
+  .alcance { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+  .alcance > div { border-radius: 2.5mm; padding: 3mm 3.5mm; }
+  .alcance .si { background: #e8f0ef; }
+  .alcance .no { background: #f8ece4; }
+  .alcance h3 { font-size: 9.6pt; margin-bottom: 1.5mm; }
+  .alcance .si h3 { color: var(--primario); }
+  .alcance .no h3 { color: #a5461b; }
+  .alcance li { font-size: 9pt; }
+
+  .apoyo {
+    background: var(--primario);
+    color: #fff;
+    border-radius: 3mm;
+    padding: 4mm 5mm;
+    margin-top: 5mm;
+  }
+  .apoyo h2 { color: #fff; }
+  .apoyo h2 .num { background: #fff; color: var(--primario); }
+  .apoyo p { margin: 0; font-size: 9.8pt; }
+
+  .pie {
+    position: absolute;
+    left: 15mm; right: 15mm; bottom: 7mm;
+    display: flex;
+    justify-content: space-between;
+    font-size: 7.4pt;
+    color: var(--suave);
+    border-top: 1px solid var(--linea);
+    padding-top: 2mm;
+  }
+
+</style>
+</head>
+<body>
+
+<!-- ============ PÁGINA 1 ============ -->
+<div class="pagina">
+
+  <header class="cabecera">
+    <div class="etiqueta">Resumen ejecutivo · Vinculación con el Medio 2026</div>
+    <h1>Marketplace para emprendedores</h1>
+    <div class="bajada">Una plataforma digital, construida junto a las emprendedoras de Alerce, que pone en valor el emprendimiento local y ayuda a que sus clientes sepan dónde encontrarlas.</div>
+  </header>
+
+  <div class="ficha-datos">
+    <div><b>Institución</b>Santo Tomás (IP–CFT)</div>
+    <div><b>Carrera</b>Ingeniería en Informática / Analista Programador</div>
+    <div><b>Asignatura</b>Programación Android (docencia vinculada)</div>
+    <div><b>Contraparte</b>Asociación de emprendedoras de Alerce</div>
+    <div><b>Territorio</b>Comuna de Puerto Montt</div>
+    <div><b>Período</b>Octubre a noviembre de 2026</div>
+  </div>
+
+  <div class="resumen">
+    <b class="titulo">En pocas palabras</b>
+    Estudiantes de Informática de Santo Tomás desarrollarán, junto a una asociación de emprendedoras de Alerce, una <b>aplicación para celulares Android y un sitio web</b> que <b>ponen en valor el emprendimiento local</b>. Cada emprendedora podrá mostrar sus productos, <b>compartir su catálogo con un código QR</b> o un enlace por WhatsApp, llevar la cuenta de lo que vende y avisar a sus clientes cuándo y dónde estará vendiendo. La herramienta se diseña para personas con <b>poca experiencia en tecnología</b> y se prueba con las propias emprendedoras antes de entregarla.
+  </div>
+
+  <section>
+    <h2><span class="num">1</span>¿Qué problema queremos resolver?</h2>
+    <div class="dos-columnas">
+      <ul>
+        <li>Muchas emprendedoras de Puerto Montt elaboran productos propios (alimentos, artesanía, tejidos, cosmética natural, plantas) y para darse a conocer dependen de fotos sueltas por WhatsApp, del boca a boca y de las <b>ferias</b>.</li>
+        <li>No tienen un catálogo ordenado ni una forma simple de saber qué les queda y qué han vendido.</li>
+      </ul>
+      <ul>
+        <li>Como <b>no tienen un local fijo</b>, quien quiere comprarles no sabe dónde ni cuándo encontrarlas, y quien organiza ferias coordina todo a mano.</li>
+        <li>Las herramientas digitales existentes no están pensadas para personas con <b>baja alfabetización digital</b>.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">2</span>¿Qué proponemos?</h2>
+    <p>Un <b>punto de encuentro del emprendimiento local</b>, tanto para vender como para comprar, con tres partes:</p>
+    <div class="tarjetas tres">
+      <div class="tarjeta">
+        <span class="icono">App para celular</span>
+        <h3>La tienda en el bolsillo</h3>
+        <p>La emprendedora arma su catálogo con fotos desde su teléfono, anota sus ventas y responde invitaciones a ferias con un toque. Los vecinos pueden usar la misma app para conocerla y seguirla.</p>
+      </div>
+      <div class="tarjeta">
+        <span class="icono">Sitio web</span>
+        <h3>Una vitrina abierta</h3>
+        <p>Cualquiera ve tiendas y productos desde el computador o el celular, sin crear cuenta. Se llega escaneando el código QR de la emprendedora o con un enlace compartido por WhatsApp.</p>
+      </div>
+      <div class="tarjeta">
+        <span class="icono">Ferias y eventos</span>
+        <h3>Dónde y cuándo encontrarlas</h3>
+        <p>Como no tienen un local fijo, el público puede ver en qué feria, lugar y horario estará vendiendo cada emprendedora, y sus seguidores reciben un aviso. El organizador, además, invita y ve quién confirmó.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">3</span>¿A quién beneficia?</h2>
+    <div class="tarjetas cuatro">
+      <div class="tarjeta">
+        <h3>Emprendedoras</h3>
+        <p>Vitrina digital propia, control simple de sus ventas y más visibilidad.</p>
+      </div>
+      <div class="tarjeta">
+        <h3>Comunidad</h3>
+        <p>Un lugar para conocer y apoyar el comercio local y saber dónde encontrarlo.</p>
+      </div>
+      <div class="tarjeta">
+        <h3>Organizadores</h3>
+        <p>Convocatoria y asistencia a ferias en un solo lugar, operable a futuro por la Municipalidad.</p>
+      </div>
+      <div class="tarjeta">
+        <h3>Estudiantes</h3>
+        <p>Aprendizaje con usuarias reales y beneficio mutuo entre Santo Tomás y el territorio.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="pie">
+    <span>Marketplace para emprendedores · Resumen ejecutivo</span>
+    <span>Octubre 2026 · 1 / 2</span>
+  </div>
+</div>
+
+<!-- ============ PÁGINA 2 ============ -->
+<div class="pagina" id="p2">
+
+  <section style="margin-top:0">
+    <h2><span class="num">4</span>Se construye con las emprendedoras, no solo para ellas</h2>
+    <div class="dos-columnas">
+      <div>
+        <p>Cada equipo de estudiantes desarrolla <b>su propia versión</b> de la plataforma. Antes de construir, todos visitan a la asociación: conversan con las emprendedoras, observan cómo usan su celular, registran qué productos elaboran y les muestran un primer prototipo para recoger sus opiniones.</p>
+        <p>Al final se elige la mejor solución y <b>el equipo ganador la presenta a las emprendedoras</b>; esa versión es la base para ponerla en marcha.</p>
+      </div>
+      <div>
+        <ul class="linea-tiempo">
+          <li><span class="fecha">5 oct</span><span>Diseño inicial de cada equipo.</span></li>
+          <li class="hito"><span class="fecha">14 oct</span><span><b>Visita a la asociación en Alerce</b> y prueba del prototipo.</span></li>
+          <li><span class="fecha">19 oct</span><span>Ajuste del diseño con lo aprendido.</span></li>
+          <li><span class="fecha">26 oct–16 nov</span><span>Construcción por etapas: tienda, vitrina web y ferias.</span></li>
+          <li class="hito"><span class="fecha">Mediados nov</span><span><b>Prueba de uso</b> con emprendedoras (a coordinar).</span></li>
+          <li><span class="fecha">23 nov</span><span>Entrega final.</span></li>
+          <li class="hito"><span class="fecha">Después</span><span><b>Presentación a las emprendedoras</b> (por definir).</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">5</span>Cómo cuidamos a las personas</h2>
+    <div class="tarjetas dos">
+      <div class="tarjeta">
+        <h3>Ella decide</h3>
+        <p>Cada emprendedora elige cómo la contactan sus clientes (WhatsApp, formulario o ambos), en qué horario recibe esos contactos en la app, si muestra sus precios y si quiere participar del sistema de calificaciones, que no es obligatorio.</p>
+      </div>
+      <div class="tarjeta">
+        <h3>Contacto seguro</h3>
+        <p>Los clientes pueden escribirle por un formulario y ella recibe el aviso en la app, <b>sin necesidad de publicar su número de teléfono</b>. Fuera de su horario, el mensaje queda guardado para verlo después.</p>
+      </div>
+      <div class="tarjeta">
+        <h3>Fácil de usar</h3>
+        <p>Botones grandes, íconos con texto, lenguaje simple y pocos pasos por pantalla. Funciona en celulares sencillos y con mala señal.</p>
+      </div>
+      <div class="tarjeta">
+        <h3>Privacidad y confianza</h3>
+        <p>Datos tratados según la ley chilena; su historial de ventas es privado. El equipo del proyecto registra a las emprendedoras y las ferias son solo por invitación.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">6</span>Qué incluye y qué no (primera versión)</h2>
+    <div class="alcance">
+      <div class="si">
+        <h3>Incluye</h3>
+        <ul>
+          <li>Tienda y catálogo pensados para productos artesanales (a pedido, piezas únicas, tallas o colores).</li>
+          <li>Registro de ventas y, si ella quiere, su historial.</li>
+          <li>Directorio de emprendedoras, asociaciones y ferias.</li>
+          <li>Enlaces para WhatsApp y redes, y códigos QR.</li>
+          <li>Calendario de ferias: dónde y cuándo encontrar a cada emprendedora, con avisos a sus seguidores.</li>
+        </ul>
+      </div>
+      <div class="no">
+        <h3>No incluye</h3>
+        <ul>
+          <li>Pagos en línea ni despachos: la venta sigue siendo en persona o por WhatsApp.</li>
+          <li>App para iPhone: la aplicación es solo para Android. Tampoco cubre comunas fuera de Puerto Montt.</li>
+          <li>Inteligencia artificial para mejorar fotos y descripciones: <b>solo si se consigue financiamiento</b>; la plataforma funciona sin ella.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="apoyo">
+    <h2><span class="num">7</span>Proyección</h2>
+    <p>La solución ganadora se pondrá en marcha con las emprendedoras de la asociación. La plataforma está pensada para que su administración pueda traspasarse a la <b>Municipalidad de Puerto Montt</b> y para sumar, con el tiempo, a más emprendedoras y asociaciones de la comuna.</p>
+  </div>
+
+  <div class="pie">
+    <span>Marketplace para emprendedores · Resumen ejecutivo</span>
+    <span>Octubre 2026 · 2 / 2</span>
+  </div>
+</div>
+
+</body>
+</html>

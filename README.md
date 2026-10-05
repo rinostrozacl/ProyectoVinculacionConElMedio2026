@@ -23,6 +23,7 @@ Ficha de proyecto cerrada (v1.0), requisitos base y planificación publicados: 8
 | [docs/pauta-levantamiento.md](docs/pauta-levantamiento.md) | Pauta para el levantamiento con la asociación de Alerce |
 | [docs/pauta-actividad-visita.md](docs/pauta-actividad-visita.md) | Programa de la visita a la asociación de Alerce (14 de octubre) |
 | [docs/planificacion.md](docs/planificacion.md) | Planificación: calendario de las 8 entregas, con objetivo, entregables y criterios de aceptación de cada una |
+| [docs/resumen-ejecutivo.pdf](docs/resumen-ejecutivo.pdf) | Resumen ejecutivo de dos páginas, en lenguaje no técnico, para Vinculación con el Medio y otros actores sociales (fuente: `docs/resumen-ejecutivo.html`) |
 | [requerimientos.md](requerimientos.md) | Índice de requisitos y entregables |
 
 ## Estructura
@@ -36,5 +37,7 @@ ProyectoVinculacionConElMedio2026/
     ├── requerimientos-base.md
     ├── pauta-levantamiento.md
     ├── pauta-actividad-visita.md
-    └── planificacion.md
+    ├── planificacion.md
+    ├── resumen-ejecutivo.html
+    └── resumen-ejecutivo.pdf
 ```

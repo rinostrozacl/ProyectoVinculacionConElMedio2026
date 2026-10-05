@@ -10,6 +10,7 @@ Proyecto semestral *Emprendedores Puerto Montt* — Programación en Android 202
 | [docs/requerimientos-base.md](docs/requerimientos-base.md) | Docentes | Requisitos mínimos comunes: reglas de negocio, funcionales y no funcionales. |
 | [docs/pauta-levantamiento.md](docs/pauta-levantamiento.md) | Docentes | Guía para el levantamiento con la asociación de Alerce. |
 | [docs/pauta-actividad-visita.md](docs/pauta-actividad-visita.md) | Docentes | Programa de la visita a la asociación de Alerce (14 de octubre). |
+| [docs/grupos.md](docs/grupos.md) | Docentes | Grupos de trabajo, nombre de cada app e integrantes. |
 | [docs/planificacion.md](docs/planificacion.md) | Docentes | Calendario de las 8 entregas, con objetivo, entregables, requisitos cubiertos y criterios de aceptación de cada una. |
 | Informe de levantamiento | Cada grupo | Resultados de la visita, hallazgos y requisitos derivados. |
 | Requisitos completos | Cada grupo | Requisitos base + requisitos nuevos + criterios de aceptación + flujos. |

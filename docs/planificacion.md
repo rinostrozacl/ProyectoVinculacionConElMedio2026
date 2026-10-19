@@ -131,18 +131,20 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 1. **Informe de levantamiento** según la sección 9 de la pauta, con sus anexos (fichas de producto, hojas de observación y hojas de revisión del prototipo).
 2. **Tipos de emprendimiento y de producto reales:** tabla con campos específicos, variantes, modalidad y manejo de stock de cada tipo, comparada con las hipótesis de la entrega 1.
 3. **Documento de requisitos completo:** requisitos base más requisitos nuevos (con la plantilla de los requisitos base, trazados a hallazgos H01…), historias de usuario de todos los requisitos Esenciales (completando las de los flujos principales de la entrega 1), criterios de aceptación para todos los Esenciales e Importantes, y decisiones fundamentadas sobre la versión mínima de Android y la inclusión de servicios.
-4. **Prototipo de alta fidelidad** corregido con lo observado en la visita (flujos de la emprendedora y pantallas principales del comprador y del administrador), con un registro de los cambios realizados.
-5. **Guía visual:** colores, tipografía, componentes, íconos con texto y tamaños mínimos de 48 dp (RNF-USA-01, RNF-USA-02).
-6. **Modelo de datos en Firestore:** colecciones, documentos, campos y relaciones, incluidos los campos específicos por tipo de producto.
-7. **Arquitectura en capas definitiva** y borrador de las reglas de seguridad por perfil (RNF-SEG-01).
-8. **Contenido evaluado — Estudio de caso: presentación de la app por Git:** presentación del proyecto a través del repositorio: flujo de trabajo documentado (ramas, *pull requests* y revisión), requisitos cargados como *issues*, etiquetas `entrega-1` a `entrega-3` y contribución de cada integrante (RNF-MAN-03 a 05).
+4. **Mitigación de las problemáticas de uso** ([problematicas.md](problematicas.md)): para cada una (P01 a P09), definición del problema —ajustada con el levantamiento si corresponde— y medidas concretas, incluidas las que funcionan sin asistencia de IA.
+5. **Prototipo de alta fidelidad** corregido con lo observado en la visita (flujos de la emprendedora y pantallas principales del comprador y del administrador), con un registro de los cambios realizados.
+6. **Guía visual:** colores, tipografía, componentes, íconos con texto y tamaños mínimos de 48 dp (RNF-USA-01, RNF-USA-02).
+7. **Modelo de datos en Firestore:** colecciones, documentos, campos y relaciones, incluidos los campos específicos por tipo de producto.
+8. **Arquitectura en capas definitiva** y borrador de las reglas de seguridad por perfil (RNF-SEG-01).
+9. **Contenido evaluado — Estudio de caso: presentación de la app por Git:** presentación del proyecto a través del repositorio: flujo de trabajo documentado (ramas, *pull requests* y revisión), requisitos cargados como *issues*, etiquetas `entrega-1` a `entrega-3` y contribución de cada integrante (RNF-MAN-03 a 05).
 
 **Criterios de aceptación:**
 
 1. El informe incluye todas las tablas de consolidación de la pauta (sección 8) completas, con las emprendedoras identificadas solo por código (E01, E02…).
 2. Cada requisito nuevo cita el hallazgo que lo origina; cada requisito Esencial está cubierto por al menos una historia de usuario; y todos los Esenciales e Importantes tienen criterios de aceptación en formato "Dado… cuando… entonces…".
-3. Cada cambio anotado en la tabla de retroalimentación (sección 8.6 de la pauta) se ve reflejado en el prototipo, y cada tipo de producto levantado tiene sus campos en el modelo de datos.
-4. La rama principal está protegida, todo cambio desde la entrega 2 entró por un *pull request* revisado por otro integrante, y cada integrante tiene commits propios en el historial.
+3. Cada problemática (P01 a P09) tiene el problema definido y al menos una medida de mitigación que la emprendedora puede usar sin asistencia de IA.
+4. Cada cambio anotado en la tabla de retroalimentación (sección 8.6 de la pauta) se ve reflejado en el prototipo, y cada tipo de producto levantado tiene sus campos en el modelo de datos.
+5. La rama principal está protegida, todo cambio desde la entrega 2 entró por un *pull request* revisado por otro integrante, y cada integrante tiene commits propios en el historial.
 
 ---
 

@@ -320,6 +320,7 @@ Se aprovecha lo trabajado con Firebase en la Unidad 1.
 
 - **Cada grupo de estudiantes construye la plataforma completa.**
 - El equipo docente entrega los [requisitos base](requerimientos-base.md); **cada grupo realiza el levantamiento** con la contraparte ([pauta de levantamiento](pauta-levantamiento.md)) y completa los requisitos con lo que obtenga.
+- El equipo docente fija las [problemáticas de uso](problematicas.md). Cada grupo las precisa y propone cómo mitigarlas. No son requisitos cerrados: son situaciones que la solución tiene que volver manejables, también si no hay asistencia de IA.
 - **Cada grupo propone el nombre comercial** e identidad visual de su plataforma.
 - Al final del semestre se elige la mejor solución; el **grupo ganador presenta su plataforma a las emprendedoras** y es la base de la implementación final.
 - En la solución ganadora, el registro real de emprendedoras, asociaciones y ferias lo hace el equipo del proyecto como administrador de plataforma; más adelante podría asumirlo la Municipalidad.

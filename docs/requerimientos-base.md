@@ -238,6 +238,7 @@ Estos requisitos base **no son la especificación completa**. Cada grupo debe:
 5. **Decidir de forma fundamentada** si se incluyen servicios, según lo que muestre el levantamiento.
 6. **Fijar la versión mínima de Android** (RNF-CPT-01) según los celulares observados.
 7. **Proponer el nombre comercial** e identidad visual de la plataforma.
+8. **Abordar las problemáticas de uso** de [problematicas.md](problematicas.md): para cada una (P01 a P09), precisar el problema y proponer medidas de mitigación, incluidas las que funcionan sin asistencia de IA.
 
 Los grupos pueden proponer ajustes a los requisitos base si el levantamiento lo justifica; esos ajustes se conversan con el docente antes de aplicarlos.
 

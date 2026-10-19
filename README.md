@@ -21,6 +21,7 @@ Ficha de proyecto cerrada (v1.0), requisitos base y planificación publicados: 8
 | [docs/ficha-proyecto.md](docs/ficha-proyecto.md) | Ficha de proyecto: problema, objetivos, actores, alcance, organización, riesgos y decisiones tomadas |
 | [docs/requerimientos-base.md](docs/requerimientos-base.md) | Requisitos base (reglas de negocio, funcionales y no funcionales) y lo que completa cada grupo |
 | [docs/pauta-levantamiento.md](docs/pauta-levantamiento.md) | Pauta para el levantamiento con la asociación de Alerce |
+| [docs/problematicas.md](docs/problematicas.md) | Nueve problemáticas de uso que cada grupo debe definir y mitigar |
 | [docs/pauta-actividad-visita.md](docs/pauta-actividad-visita.md) | Programa de la visita a la asociación de Alerce (14 de octubre) |
 | [docs/grupos.md](docs/grupos.md) | Grupos de trabajo: 4 grupos con su nombre, app e integrantes, y estudiantes pendientes de grupo |
 | [docs/planificacion.md](docs/planificacion.md) | Planificación: calendario de las 8 entregas, con objetivo, entregables y criterios de aceptación de cada una |
@@ -39,6 +40,7 @@ ProyectoVinculacionConElMedio2026/
     ├── requerimientos-base.md
     ├── pauta-levantamiento.md
     ├── pauta-actividad-visita.md
+    ├── problematicas.md
     ├── planificacion.md
     ├── resumen-ejecutivo.html
     └── resumen-ejecutivo.pdf

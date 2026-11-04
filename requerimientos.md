@@ -13,6 +13,7 @@ Proyecto semestral *Emprendedores Puerto Montt* — Programación en Android 202
 | [docs/pauta-actividad-visita.md](docs/pauta-actividad-visita.md) | Docentes | Programa de la visita a la asociación de Alerce (14 de octubre). |
 | [docs/grupos.md](docs/grupos.md) | Docentes | Grupos de trabajo, nombre de cada app e integrantes. |
 | [docs/planificacion.md](docs/planificacion.md) | Docentes | Calendario de las 8 entregas, con objetivo, entregables, requisitos cubiertos y criterios de aceptación de cada una. |
+| [docs/checklist-revision-entrega-4.md](docs/checklist-revision-entrega-4.md) | Docentes | Checklist de la entrega 4 por aplicación (web, app, backend). Obligatorios restan décimas; adicionales suman. |
 | Informe de levantamiento | Cada grupo | Resultados de la visita, hallazgos y requisitos derivados. |
 | Requisitos completos | Cada grupo | Requisitos base + requisitos nuevos + criterios de aceptación + flujos. |
 

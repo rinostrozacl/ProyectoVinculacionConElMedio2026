@@ -26,6 +26,7 @@ Ficha de proyecto cerrada (v1.0), requisitos base y planificación publicados: 8
 | [docs/grupos.md](docs/grupos.md) | Grupos de trabajo: 4 grupos con su nombre, app e integrantes, y estudiantes pendientes de grupo |
 | [docs/planificacion.md](docs/planificacion.md) | Planificación: calendario de las 8 entregas, con objetivo, entregables y criterios de aceptación de cada una |
 | [docs/checklist-revision-entrega-4.md](docs/checklist-revision-entrega-4.md) | Checklist de la entrega 4, ordenado por web / app / backend: obligatorios (−0,1) y adicionales (+0,1) |
+| [docs/checklist-revision-entrega-5.md](docs/checklist-revision-entrega-5.md) | Checklist de la entrega 5, por app y web: 35 criterios funcionales, −0,2 por fallo |
 | [docs/resumen-ejecutivo.pdf](docs/resumen-ejecutivo.pdf) | Resumen ejecutivo de dos páginas, en lenguaje no técnico, para Vinculación con el Medio y otros actores sociales (fuente: `docs/resumen-ejecutivo.html`) |
 | [requerimientos.md](requerimientos.md) | Índice de requisitos y entregables |
 
@@ -44,6 +45,7 @@ ProyectoVinculacionConElMedio2026/
     ├── problematicas.md
     ├── planificacion.md
     ├── checklist-revision-entrega-4.md
+    ├── checklist-revision-entrega-5.md
     ├── resumen-ejecutivo.html
     └── resumen-ejecutivo.pdf
 ```

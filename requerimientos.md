@@ -14,6 +14,7 @@ Proyecto semestral *Emprendedores Puerto Montt* — Programación en Android 202
 | [docs/grupos.md](docs/grupos.md) | Docentes | Grupos de trabajo, nombre de cada app e integrantes. |
 | [docs/planificacion.md](docs/planificacion.md) | Docentes | Calendario de las 8 entregas, con objetivo, entregables, requisitos cubiertos y criterios de aceptación de cada una. |
 | [docs/checklist-revision-entrega-4.md](docs/checklist-revision-entrega-4.md) | Docentes | Checklist de la entrega 4 por aplicación (web, app, backend). Obligatorios restan décimas; adicionales suman. |
+| [docs/checklist-revision-entrega-5.md](docs/checklist-revision-entrega-5.md) | Docentes | Checklist de la entrega 5 por app y web. 35 criterios funcionales; cada fallo resta 2 décimas. |
 | Informe de levantamiento | Cada grupo | Resultados de la visita, hallazgos y requisitos derivados. |
 | Requisitos completos | Cada grupo | Requisitos base + requisitos nuevos + criterios de aceptación + flujos. |
 

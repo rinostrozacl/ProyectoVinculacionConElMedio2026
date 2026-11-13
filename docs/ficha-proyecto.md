@@ -352,7 +352,7 @@ Las fechas y el contenido de cada entrega semanal están en la [planificación](
 | H3 — Base | Perfiles y acceso (administrador, emprendedora con huella, comprador con Google), registro de emprendedoras y asociaciones, ficha de tienda, catálogo con variantes y configuración de disponibilidad. | 4 y 5 (26 oct y 2 nov) |
 | H4 — Difusión | Web pública y modo comprador, links, QR, compartir, ferias en el mapa y GPS. | 6 (9 nov) |
 | H5 — Ferias y valor agregado | Ferias con checklist e invitaciones, ficha de feria, seguidores y notificaciones, registro e historial de ventas, configuraciones de tienda, calificaciones, contacto. IA solo si hay fondos. | 7 (16 nov) |
-| H6 — Cierre | Pruebas, ajustes de usabilidad y entrega final. Luego, selección del grupo ganador y presentación a las emprendedoras. | 8 (23 nov) |
+| H6 — Cierre | Pruebas, ajustes de usabilidad y entrega final. Luego, selección del grupo ganador y presentación a las emprendedoras. | 8 (25 nov; jurado 26 nov) |
 
 ## 12. Decisiones tomadas en la definición
 

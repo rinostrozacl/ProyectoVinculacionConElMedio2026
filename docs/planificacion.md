@@ -2,11 +2,12 @@
 
 | Campo | Valor |
 |-------|-------|
-| Versión | 1.2 |
-| Fecha | 2026-10-05 |
-| Período | 5 de octubre al 23 de noviembre de 2026 |
-| Entregas | 8 (los lunes, salvo la entrega 2, que se presenta en la visita a terreno) |
-| Entrega final | Lunes 23 de noviembre de 2026 |
+| Versión | 1.3 |
+| Fecha | 2026-11-13 |
+| Período | 5 de octubre al 26 de noviembre de 2026 |
+| Entregas | 8 (en general los lunes; la 2 en la visita a terreno; la 6 y la 8 en miércoles) |
+| Entrega final | Miércoles 25 de noviembre de 2026 |
+| Presentación ante el jurado | Jueves 26 de noviembre de 2026 |
 
 Base: [ficha de proyecto v1.1](ficha-proyecto.md), [requisitos base](requerimientos-base.md) y [pauta de levantamiento](pauta-levantamiento.md).
 
@@ -21,9 +22,10 @@ Base: [ficha de proyecto v1.1](ficha-proyecto.md), [requisitos base](requerimien
 | 3 | Lunes 19 de octubre | Levantamiento, requisitos completos y diseño detallado | EVA 3 |
 | 4 | Lunes 26 de octubre | Acceso, administración y tienda | EVA 3 |
 | 5 | Lunes 2 de noviembre | Catálogo, productos y ventas | EVA 3 |
-| 6 | Lunes 9 de noviembre | Vitrina, modo comprador, difusión y mapas | EVA 4 |
-| 7 | Lunes 16 de noviembre | Ferias, seguidores y notificaciones | EVA 4 |
-| 8 | **Lunes 23 de noviembre** | Producto terminado (entrega final) | EVA 5 |
+| 6 | **Miércoles 18 de noviembre** | Vitrina, modo comprador, difusión y mapas | EVA 4 |
+| 7 | Lunes 23 de noviembre | Ferias, seguidores y notificaciones | EVA 4 |
+| 8 | **Miércoles 25 de noviembre** | Producto terminado (entrega final) | EVA 5 |
+| — | **Jueves 26 de noviembre** | Presentación final ante el jurado | EVA 5 |
 
 ## 2. Notas de la asignatura
 
@@ -34,7 +36,7 @@ Las notas se organizan según las entregas del proyecto (la EVA 1 corresponde a 
 | **EVA 2** | Diseño y propuesta | Entrega 1: 40 % · Entrega 2: 60 % | Prototipo de la propuesta y puesta en marcha del repositorio con flujo de Git |
 | **EVA 3** | Especificación y construcción base | Entrega 3: 30 % · Entrega 4: 35 % · Entrega 5: 35 % | Estudio de caso: presentación de la app por Git (entrega 3) · Presentación y conexión a la base de datos (entrega 4) · Elementos de seguridad: informe de pruebas y detección (entrega 5) |
 | **EVA 4** | Vitrina, mapas y ferias | Entrega 6: 50 % · Entrega 7: 50 % | Prototipo de GPS y mapas (entrega 6) |
-| **EVA 5** | Producto final | Entrega 8: 100 % | Proyecto de app: presentación final |
+| **EVA 5** | Producto final | Entrega 8: 100 % | Proyecto de app: producto el miércoles 25 y presentación ante el jurado el jueves 26 |
 
 ### 2.1 Contenidos de la asignatura y requisitos asociados
 
@@ -46,7 +48,7 @@ Cada contenido se evalúa dentro de la entrega indicada y se apoya en requisitos
 | Presentación y conexión a la base de datos | 4 (EVA 3) | Modelo de datos en Firestore y su justificación; conexión desde la app y la web mediante la capa de datos; datos de prueba cargados. | RNF-DAT-01, RNF-DAT-02, RNF-DAT-04, RNF-SEG-01 |
 | Elementos de seguridad: informe de pruebas y detección | 5 (EVA 3) | Pruebas automatizadas de las reglas de seguridad, análisis de vulnerabilidades y mecanismos de detección, reunidos en un informe. | RNF-SEG-04, RNF-SEG-05, RNF-SEG-06, RNF-SEG-07, RNF-SEG-08 |
 | Prototipo de GPS y mapas | 6 (EVA 4) | Ubicación de ferias en el mapa, mapa de próximas ferias con la posición del usuario y manejo del permiso de ubicación. | RF-MAP-01 a RF-MAP-04, RNF-PRI-04 |
-| Proyecto de app: presentación final | 8 (EVA 5) | Plataforma completa, probada y documentada. | Todos los Esenciales |
+| Proyecto de app: presentación final | 8 (EVA 5) | Plataforma completa, probada y documentada (25 nov); presentación ante el jurado (26 nov). | Todos los Esenciales |
 
 ## 3. Reglas comunes a todas las entregas
 
@@ -208,7 +210,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 
 ### Entrega 6 — Vitrina, modo comprador, difusión y mapas
 
-**Fecha:** lunes 9 de noviembre · **Nota:** EVA 4 (50 %)
+**Fecha:** miércoles 18 de noviembre · **Nota:** EVA 4 (50 %)
 
 **Objetivo:** que cualquier persona pueda conocer a las emprendedoras desde la web o la app, llegar a ellas por un enlace o un código QR, y ubicar en un mapa las ferias donde estarán.
 
@@ -239,7 +241,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 
 ### Entrega 7 — Ferias, seguidores y notificaciones
 
-**Fecha:** lunes 16 de noviembre · **Nota:** EVA 4 (50 %)
+**Fecha:** lunes 23 de noviembre · **Nota:** EVA 4 (50 %)
 
 **Objetivo:** completar la gestión centralizada de ferias y los avisos a seguidores. Es la **última entrega con funcionalidades nuevas**; después solo se prueba, corrige y documenta.
 
@@ -263,9 +265,11 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 
 ### Entrega 8 — Producto terminado (entrega final)
 
-**Fecha:** lunes 23 de noviembre · **Nota:** EVA 5 (100 %)
+**Fecha:** miércoles 25 de noviembre · **Nota:** EVA 5 (100 %)
 
-**Objetivo:** entregar una plataforma estable, probada con usuarias reales y documentada, lista para presentarse a las emprendedoras.
+**Presentación ante el jurado:** jueves 26 de noviembre de 2026.
+
+**Objetivo:** entregar una plataforma estable, probada con usuarias reales y documentada, lista para presentarse a las emprendedoras y al jurado.
 
 **Entregables:**
 
@@ -276,7 +280,7 @@ Desde la entrega 3, la app compila e instala, la web está publicada con lo cons
 5. **Matriz de requisitos** con el estado final de cada uno (cumplido, parcial o pendiente, con su justificación).
 6. **Producto publicado:** APK firmado (o publicación de prueba en Google Play) y web publicada en Firebase Hosting.
 7. **Documentación:** README de ejecución, manual breve para la emprendedora, manual breve para el administrador y descripción de cómo se incorporaría la IA como módulo desacoplado (RNF-MAN-02).
-8. **Contenido evaluado — Proyecto de app: presentación final:** presentación y demostración de la plataforma completa.
+8. **Contenido evaluado — Proyecto de app: presentación final:** presentación y demostración de la plataforma completa ante el jurado el **jueves 26 de noviembre** (el producto se entrega el miércoles 25).
 
 **Criterios de aceptación:**
 

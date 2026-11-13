@@ -12,7 +12,7 @@ Contraparte: asociación de emprendedoras vinculada al proyecto de Vinculación 
 
 ## Estado
 
-Ficha de proyecto cerrada (v1.0), requisitos base y planificación publicados: 8 entregas semanales, del 5 de octubre a la entrega final del 23 de noviembre de 2026. Grupos conformados: 4 grupos con 30 de 33 estudiantes ([docs/grupos.md](docs/grupos.md)). Siguiente etapa: diseño conceptual (5 oct) y propuesta de cada grupo, que se entrega y se revisa con las emprendedoras en la visita a Alerce del miércoles 14 de octubre.
+Ficha de proyecto cerrada (v1.0), requisitos base y planificación publicados: 8 entregas, del 5 de octubre a la entrega final del 25 de noviembre de 2026, con presentación ante el jurado el 26 de noviembre. Grupos conformados: 4 grupos con 30 de 33 estudiantes ([docs/grupos.md](docs/grupos.md)).
 
 ## Documentación
 
@@ -27,6 +27,9 @@ Ficha de proyecto cerrada (v1.0), requisitos base y planificación publicados: 8
 | [docs/planificacion.md](docs/planificacion.md) | Planificación: calendario de las 8 entregas, con objetivo, entregables y criterios de aceptación de cada una |
 | [docs/checklist-revision-entrega-4.md](docs/checklist-revision-entrega-4.md) | Checklist de la entrega 4, ordenado por web / app / backend: obligatorios (−0,1) y adicionales (+0,1) |
 | [docs/checklist-revision-entrega-5.md](docs/checklist-revision-entrega-5.md) | Checklist de la entrega 5, por app y web: 35 criterios funcionales, −0,2 por fallo |
+| [docs/checklist-revision-entrega-6.md](docs/checklist-revision-entrega-6.md) | Checklist de la entrega 6, por web y app: 35 criterios funcionales, −0,2 por fallo |
+| [docs/checklist-revision-entrega-7.md](docs/checklist-revision-entrega-7.md) | Checklist de la entrega 7, por web y app: 35 criterios funcionales, −0,2 por fallo |
+| [docs/checklist-revision-entrega-8.md](docs/checklist-revision-entrega-8.md) | Checklist de la entrega 8 (producto final): 35 criterios, app / web / cierre, −0,2 por fallo |
 | [docs/resumen-ejecutivo.pdf](docs/resumen-ejecutivo.pdf) | Resumen ejecutivo de dos páginas, en lenguaje no técnico, para Vinculación con el Medio y otros actores sociales (fuente: `docs/resumen-ejecutivo.html`) |
 | [requerimientos.md](requerimientos.md) | Índice de requisitos y entregables |
 
@@ -46,6 +49,9 @@ ProyectoVinculacionConElMedio2026/
     ├── planificacion.md
     ├── checklist-revision-entrega-4.md
     ├── checklist-revision-entrega-5.md
+    ├── checklist-revision-entrega-6.md
+    ├── checklist-revision-entrega-7.md
+    ├── checklist-revision-entrega-8.md
     ├── resumen-ejecutivo.html
     └── resumen-ejecutivo.pdf
 ```

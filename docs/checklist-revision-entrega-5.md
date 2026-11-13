@@ -3,20 +3,13 @@
 | Campo | Valor |
 |-------|-------|
 | Entrega | 5 — Catálogo, productos y ventas |
-| Fecha planificada | Lunes 2 de noviembre de 2026 |
+| Fecha de revisión | Lunes 2 de noviembre de 2026 |
 | Nota | Entrega 5, que pondera 35 % de la EVA 3 |
 | Criterios | 35, solo funcionales. Cada fallo resta 2 décimas |
 | Orden | App Android y web |
 | Base | [Planificación, entrega 5](planificacion.md#entrega-5--catálogo-productos-y-ventas), [requisitos base](requerimientos-base.md) |
 
 Cada criterio se marca **cumple** o **no cumple**. No hay puntaje intermedio. Se comprueba usándolo, en el celular o en el navegador.
-
-## Premisas
-
-1. **App:** la emprendedora crea productos, configura el catálogo y registra ventas.
-2. **Web:** un visitante, sin instalar la app y sin iniciar sesión, ve el catálogo público de esa tienda y el efecto de lo que ella configuró o vendió. Crear y vender desde la web es de la entrega 6.
-3. Entran solo comportamientos que se pueden mostrar. Informes, pruebas del emulador, Lint, MobSF, App Check, etiquetas de git y documentos no se califican aquí; quedan para la revisión final.
-4. No entran directorio, filtros, QR, mapas ni contacto. Eso es la entrega 6. Sugerir la feria del día al vender es la entrega 7.
 
 ## Cómo se calcula la nota
 

@@ -3,35 +3,25 @@
 | Campo          | Valor                                                                                                                                                                                                        |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Entrega        | 4 — Acceso, administración y tienda                                                                                                                                                                          |
-| Fecha Revisión | Miércoles 4 de noviembre de 2026                                                                                                                                                                             |
+| Fecha de revisión | Miércoles 4 de noviembre de 2026                                                                                                                                                                             |
 | Nota           | Entrega 4, que pondera 35 % de la EVA 3                                                                                                                                                                      |
 | Orden          | Por aplicación: web, app Android, backend / repositorio; al final, adicionales por problemáticas                                                                                                             |
 | Base           | [Planificación, entrega 4](planificacion.md#entrega-4--acceso-administración-y-tienda), [requisitos base](requerimientos-base.md), [ficha de proyecto](ficha-proyecto.md), [problemáticas](problematicas.md) |
 
 Cada ítem se marca **cumple** o **no cumple**. No hay puntaje intermedio.
 
-## Premisas
-
-1. **El administrador de plataforma usa solo la web**, no la app. Está en la [ficha de proyecto](ficha-proyecto.md#4-actores-y-perfiles-de-usuario): canal del administrador = Web. En la app no debe haber panel de administración de plataforma.
-2. **La emprendedora escribe la ficha de su tienda en la app** (RF-TIE-01). En esta entrega la web debe **mostrar** esa ficha. Editarla desde la web es de la entrega 6 (RF-TIE-02).
-3. **Cómo se clasifica un ítem**
-
-- **Obligatorio:** todo lo que viene de los [requisitos base](requerimientos-base.md) (Esencial o Importante) y entra en el alcance de esta revisión (acceso, administración, tienda, reglas, capa de datos y reglas comunes de entrega), más lo que fija la ficha o los entregables de la entrega 4. Si falta, resta.
-- **Adicional** (solo estas tres vías; si está, suma; si no, no resta):
-
-1. Requisito o capacidad **de otra entrega** (incluido un Esencial o Importante que la planificación deja para después).
-2. Un **plus** sobre algo que ya es obligatorio (más cómodo, más pulido, no un RF distinto).
-3. Una **mitigación de** [problemáticas](problematicas.md) **que el grupo implementó y que no está cubierta por un RF/RNF** de los requisitos base.
-4. No se usa “es Importante” como motivo para dejar un requisito base en adicionales.
-
 ## Cómo se calcula la nota
 
 Se parte de **7,0**.
 
-| Tipo                 | Efecto                    |
-| -------------------- | ------------------------- |
+| Tipo | Efecto |
+|------|--------|
 | Obligatorio en fallo | Resta **1 décima** (−0,1) |
-| Adicional cumplido   | Suma **1 décima** (+0,1)  |
+| Adicional cumplido | Suma **1 décima** (+0,1) |
+
+**Obligatorio:** requisito base (Esencial o Importante) del alcance de esta entrega, más lo de la ficha y los entregables. Si falta, resta.
+
+**Adicional** (si está, suma; si no, no resta): de otra entrega; plus sobre un obligatorio; o mitigación de [problemáticas](problematicas.md) sin RF/RNF propio.
 
 **Nota = 7,0 − 0,1 × (obligatorios en fallo) + 0,1 × (adicionales cumplidos)**
 
